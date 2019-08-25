@@ -9,6 +9,8 @@ using Android.OS;
 
 namespace SPL.Droid
 {
+    // heeeeeeeey look at me hello world
+
     [Activity(Label = "SPL", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
