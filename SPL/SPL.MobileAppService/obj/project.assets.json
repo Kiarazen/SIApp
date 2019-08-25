@@ -13153,11 +13153,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\csit321_wjt01a\\Desktop\\wjt_01 SourceCode\\SPL\\SPL\\SPL.MobileAppService\\SPL.MobileAppService.csproj",
+      "projectUniqueName": "C:\\Users\\csit321_wjt01a\\Source\\Repos\\Kiarazen\\SIApp\\SPL\\SPL.MobileAppService\\SPL.MobileAppService.csproj",
       "projectName": "SPL.MobileAppService",
-      "projectPath": "C:\\Users\\csit321_wjt01a\\Desktop\\wjt_01 SourceCode\\SPL\\SPL\\SPL.MobileAppService\\SPL.MobileAppService.csproj",
+      "projectPath": "C:\\Users\\csit321_wjt01a\\Source\\Repos\\Kiarazen\\SIApp\\SPL\\SPL.MobileAppService\\SPL.MobileAppService.csproj",
       "packagesPath": "C:\\Users\\csit321_wjt01a\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\csit321_wjt01a\\Desktop\\wjt_01 SourceCode\\SPL\\SPL\\SPL.MobileAppService\\obj\\",
+      "outputPath": "C:\\Users\\csit321_wjt01a\\Source\\Repos\\Kiarazen\\SIApp\\SPL\\SPL.MobileAppService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
