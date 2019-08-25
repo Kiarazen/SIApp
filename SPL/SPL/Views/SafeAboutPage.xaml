@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SPL.Views.SafeAboutPage">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Row="0" FontAttributes="Bold" FontSize="Large">SafeNet</Label>
+            <Label Grid.Row="1" FontSize="Medium">
+                Go and learn more about Safenet
+            </Label>
+            <Button Grid.Row="3" Text ="Explore" 
+                    Command="{Binding OpenWebCommand}" 
+                    FontAttributes="Bold" 
+                    FontSize="Medium" />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

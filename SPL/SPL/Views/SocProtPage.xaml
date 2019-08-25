@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SPL.Views.SocProtPage">
+    <ContentPage.Content>
+        <Grid RowSpacing="10" ColumnSpacing="16" HorizontalOptions="Center" Padding="0,30,0,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Row="0" Grid.Column="0" Text="Social Welfare"
+                        BackgroundColor="Gray"
+                        Opacity="65"
+                        TextColor="White" />
+            <Button Grid.Row="0" Grid.Column="1" Text="SafeNet and Seif Ples"
+                        Clicked="ToSafeNet_Clicked"
+                        BackgroundColor="Gray"
+                        Opacity="65"
+                        TextColor="White" />
+
+            <Button Grid.Row="1" Grid.Column="0" Text="Disabilities"
+                        BackgroundColor="Gray"
+                        Opacity="65"
+                        TextColor="White" Padding="0" />
+
+            <Button Grid.Row="1" Grid.Column="1" Text="Disasters"
+                        BackgroundColor="Gray"
+                        Opacity="65"
+                        TextColor="White" />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SPL.Views.HomePage">
+    <ContentPage.Content>
+        <Grid RowSpacing="10" ColumnSpacing="16" HorizontalOptions="Center" VerticalOptions="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Row="0" Grid.Column="0" Text="Social Protections"
+                        Clicked="ToSocialProtections_Clicked"
+                        BackgroundColor="#2EA62E"
+                        Opacity="65"
+                        TextColor="White" />
+            <Button Grid.Row="0" Grid.Column="1" Text="Learn More"
+                        BackgroundColor="#E4E425"
+                        Opacity="65"
+                        TextColor="White" />
+
+            <Button Grid.Row="1" Grid.Column="0" Text="Have Your Say"
+                        BackgroundColor="#FB4343"
+                        Opacity="65"
+                        TextColor="White" />
+
+            <Button Grid.Row="1" Grid.Column="1" Text="Help Me"
+                        BackgroundColor="#3939DB"
+                        Opacity="65"
+                        TextColor="White" />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
