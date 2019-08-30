@@ -5,22 +5,32 @@
     <ContentPage.Content>
         <Grid RowSpacing="10" ColumnSpacing="16" HorizontalOptions="Center" VerticalOptions="Center">
             <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"></RowDefinition>
-                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="150"></RowDefinition>
+                <RowDefinition Height="150"></RowDefinition>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="Auto"></ColumnDefinition>
-                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <ColumnDefinition Width="150"></ColumnDefinition>
+                <ColumnDefinition Width="150"></ColumnDefinition>
             </Grid.ColumnDefinitions>
-            <Button Grid.Row="0" Grid.Column="0" Text="Social Protections"
+            <Grid RowSpacing="0" ColumnSpacing="16" HorizontalOptions="Center" VerticalOptions="Center">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="150"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Button Grid.Row="0" Grid.Column="0" Text="Social Protections"
                         Clicked="ToSocialProtections_Clicked"
                         BackgroundColor="#2EA62E"
                         Opacity="65"
                         TextColor="White" />
-            <Button Grid.Row="0" Grid.Column="1" Text="Learn More"
+                <Button Grid.Row="1" Grid.Column="0" Text="Learn More"
                         BackgroundColor="#E4E425"
                         Opacity="65"
                         TextColor="White" />
+            </Grid>
+            
 
             <Button Grid.Row="1" Grid.Column="0" Text="Have Your Say"
                         BackgroundColor="#FB4343"

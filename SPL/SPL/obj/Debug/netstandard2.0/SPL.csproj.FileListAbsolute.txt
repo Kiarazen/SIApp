@@ -28,3 +28,20 @@ C:\Users\csit321_wjt01a\Desktop\wjt_01 SourceCode\SPL\SPL\SPL\obj\Debug\netstand
 C:\Users\csit321_wjt01a\Desktop\wjt_01 SourceCode\SPL\SPL\SPL\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\csit321_wjt01a\Desktop\wjt_01 SourceCode\SPL\SPL\SPL\obj\Debug\netstandard2.0\SPL.dll
 C:\Users\csit321_wjt01a\Desktop\wjt_01 SourceCode\SPL\SPL\SPL\obj\Debug\netstandard2.0\SPL.pdb
+C:\Users\csit321_wjt01a\Source\Repos\Kiarazen\SIApp\SPL\SPL\bin\Debug\netstandard2.0\SPL.deps.json
+C:\Users\csit321_wjt01a\Source\Repos\Kiarazen\SIApp\SPL\SPL\bin\Debug\netstandard2.0\SPL.dll
+C:\Users\csit321_wjt01a\Source\Repos\Kiarazen\SIApp\SPL\SPL\bin\Debug\netstandard2.0\SPL.pdb
+C:\Users\csit321_wjt01a\Source\Repos\Kiarazen\SIApp\SPL\SPL\obj\Debug\netstandard2.0\SPL.csprojAssemblyReference.cache
+C:\Users\csit321_wjt01a\Source\Repos\Kiarazen\SIApp\SPL\SPL\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\csit321_wjt01a\Source\Repos\Kiarazen\SIApp\SPL\SPL\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
+C:\Users\csit321_wjt01a\Source\Repos\Kiarazen\SIApp\SPL\SPL\obj\Debug\netstandard2.0\Views\SafeAboutPage.xaml.g.cs
+C:\Users\csit321_wjt01a\Source\Repos\Kiarazen\SIApp\SPL\SPL\obj\Debug\netstandard2.0\Views\SafeNetPage.xaml.g.cs
+C:\Users\csit321_wjt01a\Source\Repos\Kiarazen\SIApp\SPL\SPL\obj\Debug\netstandard2.0\Views\SocProtPage.xaml.g.cs
+C:\Users\csit321_wjt01a\Source\Repos\Kiarazen\SIApp\SPL\SPL\obj\Debug\netstandard2.0\SPL.csproj.CoreCompileInputs.cache
+C:\Users\csit321_wjt01a\Source\Repos\Kiarazen\SIApp\SPL\SPL\obj\Debug\netstandard2.0\SPL.AssemblyInfoInputs.cache
+C:\Users\csit321_wjt01a\Source\Repos\Kiarazen\SIApp\SPL\SPL\obj\Debug\netstandard2.0\SPL.AssemblyInfo.cs
+C:\Users\csit321_wjt01a\Source\Repos\Kiarazen\SIApp\SPL\SPL\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\csit321_wjt01a\Source\Repos\Kiarazen\SIApp\SPL\SPL\obj\Debug\netstandard2.0\SPL.dll
+C:\Users\csit321_wjt01a\Source\Repos\Kiarazen\SIApp\SPL\SPL\obj\Debug\netstandard2.0\SPL.pdb
+C:\Users\csit321_wjt01a\Source\Repos\Kiarazen\SIApp\SPL\SPL\obj\Debug\netstandard2.0\Views\Page1.xaml.g.cs
+C:\Users\csit321_wjt01a\Source\Repos\Kiarazen\SIApp\SPL\SPL\obj\Debug\netstandard2.0\Views\TitlePage.xaml.g.cs

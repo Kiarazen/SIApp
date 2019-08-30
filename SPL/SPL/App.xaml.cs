@@ -20,7 +20,7 @@ namespace SPL
                 DependencyService.Register<MockDataStore>();
             else
                 DependencyService.Register<AzureDataStore>();
-            MainPage = new HomePage();
+            MainPage = new TitlePage();
         }
 
         protected override void OnStart()
