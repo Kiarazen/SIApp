@@ -4,7 +4,7 @@
              x:Class="SPL.Views.SocProtPage">
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout Margin="0,100,0,0">
+            <StackLayout Margin="0,55,0,0">
                 <Grid RowSpacing="0" ColumnSpacing="16" HorizontalOptions="Center" Padding="0,0,0,0">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="100"></RowDefinition>

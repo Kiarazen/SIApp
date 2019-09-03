@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\csit321_wjt01a\\source\\repos\\Kiarazen\\SIApp\\SPL\\SPL.Android\\SPL.Android.csproj": {}
+    "C:\\Users\\csit321_wjt01a\\Source\\Repos\\Kiarazen\\SIApp\\SPL\\SPL.Android\\SPL.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\csit321_wjt01a\\source\\repos\\Kiarazen\\SIApp\\SPL\\SPL.Android\\SPL.Android.csproj": {
+    "C:\\Users\\csit321_wjt01a\\Source\\Repos\\Kiarazen\\SIApp\\SPL\\SPL.Android\\SPL.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\csit321_wjt01a\\source\\repos\\Kiarazen\\SIApp\\SPL\\SPL.Android\\SPL.Android.csproj",
+        "projectUniqueName": "C:\\Users\\csit321_wjt01a\\Source\\Repos\\Kiarazen\\SIApp\\SPL\\SPL.Android\\SPL.Android.csproj",
         "projectName": "SPL.Android",
-        "projectPath": "C:\\Users\\csit321_wjt01a\\source\\repos\\Kiarazen\\SIApp\\SPL\\SPL.Android\\SPL.Android.csproj",
+        "projectPath": "C:\\Users\\csit321_wjt01a\\Source\\Repos\\Kiarazen\\SIApp\\SPL\\SPL.Android\\SPL.Android.csproj",
         "packagesPath": "C:\\Users\\csit321_wjt01a\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\csit321_wjt01a\\source\\repos\\Kiarazen\\SIApp\\SPL\\SPL.Android\\obj\\",
+        "outputPath": "C:\\Users\\csit321_wjt01a\\Source\\Repos\\Kiarazen\\SIApp\\SPL\\SPL.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid81": {
             "projectReferences": {
-              "C:\\Users\\csit321_wjt01a\\source\\repos\\Kiarazen\\SIApp\\SPL\\SPL\\SPL.csproj": {
-                "projectPath": "C:\\Users\\csit321_wjt01a\\source\\repos\\Kiarazen\\SIApp\\SPL\\SPL\\SPL.csproj"
+              "C:\\Users\\csit321_wjt01a\\Source\\Repos\\Kiarazen\\SIApp\\SPL\\SPL\\SPL.csproj": {
+                "projectPath": "C:\\Users\\csit321_wjt01a\\Source\\Repos\\Kiarazen\\SIApp\\SPL\\SPL\\SPL.csproj"
               }
             }
           }
@@ -86,14 +86,14 @@
         }
       }
     },
-    "C:\\Users\\csit321_wjt01a\\source\\repos\\Kiarazen\\SIApp\\SPL\\SPL\\SPL.csproj": {
+    "C:\\Users\\csit321_wjt01a\\Source\\Repos\\Kiarazen\\SIApp\\SPL\\SPL\\SPL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\csit321_wjt01a\\source\\repos\\Kiarazen\\SIApp\\SPL\\SPL\\SPL.csproj",
+        "projectUniqueName": "C:\\Users\\csit321_wjt01a\\Source\\Repos\\Kiarazen\\SIApp\\SPL\\SPL\\SPL.csproj",
         "projectName": "SPL",
-        "projectPath": "C:\\Users\\csit321_wjt01a\\source\\repos\\Kiarazen\\SIApp\\SPL\\SPL\\SPL.csproj",
+        "projectPath": "C:\\Users\\csit321_wjt01a\\Source\\Repos\\Kiarazen\\SIApp\\SPL\\SPL\\SPL.csproj",
         "packagesPath": "C:\\Users\\csit321_wjt01a\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\csit321_wjt01a\\source\\repos\\Kiarazen\\SIApp\\SPL\\SPL\\obj\\",
+        "outputPath": "C:\\Users\\csit321_wjt01a\\Source\\Repos\\Kiarazen\\SIApp\\SPL\\SPL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
