@@ -3,34 +3,122 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SPL.Views.SocProtPage">
     <ContentPage.Content>
-        <Grid RowSpacing="10" ColumnSpacing="16" HorizontalOptions="Center" Padding="0,30,0,0">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"></RowDefinition>
-                <RowDefinition Height="Auto"></RowDefinition>
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="Auto"></ColumnDefinition>
-                <ColumnDefinition Width="Auto"></ColumnDefinition>
-            </Grid.ColumnDefinitions>
-            <Button Grid.Row="0" Grid.Column="0" Text="Social Welfare"
-                        BackgroundColor="Gray"
-                        Opacity="65"
-                        TextColor="White" />
-            <Button Grid.Row="0" Grid.Column="1" Text="SafeNet and Seif Ples"
-                        Clicked="ToSafeNet_Clicked"
-                        BackgroundColor="Gray"
-                        Opacity="65"
-                        TextColor="White" />
+        <ScrollView>
+            <StackLayout Margin="0,100,0,0">
+                <Grid RowSpacing="0" ColumnSpacing="16" HorizontalOptions="Center" Padding="0,0,0,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="100"></RowDefinition>
+                        <RowDefinition Height="50"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150"></ColumnDefinition>
+                        <ColumnDefinition Width="150"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
 
-            <Button Grid.Row="1" Grid.Column="0" Text="Disabilities"
-                        BackgroundColor="Gray"
-                        Opacity="65"
+
+
+                    <Image Source="swelfare.png" Grid.Row="0" Grid.Column="0" Aspect="AspectFill">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="ToSafeNet_Clicked" NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Button Grid.Row="1" Grid.Column="0" Text="Social Welfare"
+                        BackgroundColor="Black"
+                        Clicked="ToSafeNet_Clicked"
+                        Opacity="0.9"
                         TextColor="White" Padding="0" />
 
-            <Button Grid.Row="1" Grid.Column="1" Text="Disasters"
-                        BackgroundColor="Gray"
-                        Opacity="65"
+                    <Image Source="safep.png" Grid.Row="0" Grid.Column="1" Aspect="AspectFill">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="ToSafeNet_Clicked" NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+
+                    <Button Grid.Row="1" Grid.Column="1" Text="SafeNet and Seif Ples"
+                        Clicked="ToSafeNet_Clicked"
+                        BackgroundColor="Black"
+                        Opacity="0.9"
+                        TextColor="White" Padding="0" />
+
+                </Grid>
+                <Grid RowSpacing="0" ColumnSpacing="16" HorizontalOptions="Center" VerticalOptions="Center" Padding="0,16,0,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="100"></RowDefinition>
+                        <RowDefinition Height="50"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150"></ColumnDefinition>
+                        <ColumnDefinition Width="150"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+
+                    <Image Source="disabled.png" Grid.Row="0" Grid.Column="0" Aspect="AspectFill">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="ToSafeNet_Clicked" NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+
+                    <Button Grid.Row="1" Grid.Column="0" Text="Disabilities"
+                        BackgroundColor="Black"
+                        Clicked="ToSafeNet_Clicked"
+                        Opacity="0.9"
+                        TextColor="White" Padding="0" />
+
+
+                    <Image Source="SIdisaster.png" Grid.Row="0" Grid.Column="1" Aspect="AspectFill">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="ToSafeNet_Clicked" NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+
+
+
+                    <Button Grid.Row="1" Grid.Column="1" Text="Disasters"
+                        BackgroundColor="Black"
+                        Clicked="ToSafeNet_Clicked"
+                        Opacity="0.9"
                         TextColor="White" />
-        </Grid>
+                </Grid>
+
+                <Grid RowSpacing="0" ColumnSpacing="16" HorizontalOptions="Center" VerticalOptions="Center" Padding="0,16,0,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="100"></RowDefinition>
+                        <RowDefinition Height="50"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150"></ColumnDefinition>
+                        <ColumnDefinition Width="150"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+
+                    <Image Source="healthcare.png" Grid.Row="0" Grid.Column="0" Aspect="AspectFill">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="ToSafeNet_Clicked" NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+
+                    <Button Grid.Row="1" Grid.Column="0" Text="Health"
+                        BackgroundColor="Black"
+                        Clicked="ToSafeNet_Clicked"
+                        Opacity="0.9"
+                        TextColor="White" Padding="0" />
+
+
+                    <Image Source="learn.png" Grid.Row="0" Grid.Column="1" Aspect="AspectFill">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="ToSafeNet_Clicked" NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+
+
+
+                    <Button Grid.Row="1" Grid.Column="1" Text="Education"
+                        BackgroundColor="Black"
+                        Clicked="ToSafeNet_Clicked"
+                        Opacity="0.9"
+                        TextColor="White" />
+                </Grid>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

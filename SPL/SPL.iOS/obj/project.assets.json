@@ -980,11 +980,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\csit321_wjt01a\\Source\\Repos\\Kiarazen\\SIApp\\SPL\\SPL.iOS\\SPL.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\csit321_wjt01a\\source\\repos\\Kiarazen\\SIApp\\SPL\\SPL.iOS\\SPL.iOS.csproj",
       "projectName": "SPL.iOS",
-      "projectPath": "C:\\Users\\csit321_wjt01a\\Source\\Repos\\Kiarazen\\SIApp\\SPL\\SPL.iOS\\SPL.iOS.csproj",
+      "projectPath": "C:\\Users\\csit321_wjt01a\\source\\repos\\Kiarazen\\SIApp\\SPL\\SPL.iOS\\SPL.iOS.csproj",
       "packagesPath": "C:\\Users\\csit321_wjt01a\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\csit321_wjt01a\\Source\\Repos\\Kiarazen\\SIApp\\SPL\\SPL.iOS\\obj\\",
+      "outputPath": "C:\\Users\\csit321_wjt01a\\source\\repos\\Kiarazen\\SIApp\\SPL\\SPL.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1005,8 +1005,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\csit321_wjt01a\\Source\\Repos\\Kiarazen\\SIApp\\SPL\\SPL\\SPL.csproj": {
-              "projectPath": "C:\\Users\\csit321_wjt01a\\Source\\Repos\\Kiarazen\\SIApp\\SPL\\SPL\\SPL.csproj"
+            "C:\\Users\\csit321_wjt01a\\source\\repos\\Kiarazen\\SIApp\\SPL\\SPL\\SPL.csproj": {
+              "projectPath": "C:\\Users\\csit321_wjt01a\\source\\repos\\Kiarazen\\SIApp\\SPL\\SPL\\SPL.csproj"
             }
           }
         }

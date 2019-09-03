@@ -21,5 +21,17 @@ namespace SPL.Views
         {
             await Navigation.PushModalAsync(new NavigationPage(new SocProtPage()));
         }
+        async void ToLearnMore_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new NavigationPage(new LearnPage()));
+        }
+        async void ToHaveYourSay_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new NavigationPage(new HaveSay()));
+        }
+        async void ToHelpMe_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new NavigationPage(new HelpMePage()));
+        }
     }
 }

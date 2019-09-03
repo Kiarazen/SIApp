@@ -1,46 +1,98 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="SPL.Views.HomePage">
+             x:Class="SPL.Views.HomePage"
+             Title="Home"
+             >
     <ContentPage.Content>
-        <Grid RowSpacing="10" ColumnSpacing="16" HorizontalOptions="Center" VerticalOptions="Center">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="150"></RowDefinition>
-                <RowDefinition Height="150"></RowDefinition>
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="150"></ColumnDefinition>
-                <ColumnDefinition Width="150"></ColumnDefinition>
-            </Grid.ColumnDefinitions>
-            <Grid RowSpacing="0" ColumnSpacing="16" HorizontalOptions="Center" VerticalOptions="Center">
+        <StackLayout VerticalOptions="Center">
+
+
+
+
+
+            <Grid RowSpacing="0" ColumnSpacing="16" HorizontalOptions="Center" Padding="0,0,0,0">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="100"></RowDefinition>
                     <RowDefinition Height="50"></RowDefinition>
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="150"></ColumnDefinition>
+                    <ColumnDefinition Width="150"></ColumnDefinition>
                 </Grid.ColumnDefinitions>
-                <Button Grid.Row="0" Grid.Column="0" Text="Social Protections"
+
+                <Image Source="green2.png" Aspect="AspectFill" Grid.Row="0" Grid.Column="0">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="ToSocialProtections_Clicked" NumberOfTapsRequired="1" />
+                    </Image.GestureRecognizers>
+                </Image>
+
+                <Button Grid.Row="1" Grid.Column="0" Text="Social Protections"
+                        BackgroundColor="#1c661c"
                         Clicked="ToSocialProtections_Clicked"
-                        BackgroundColor="#2EA62E"
                         Opacity="65"
                         TextColor="White" />
-                <Button Grid.Row="1" Grid.Column="0" Text="Learn More"
-                        BackgroundColor="#E4E425"
+
+
+
+                <Image Source="yellow2.png" Grid.Row="0" Grid.Column="1" Aspect="AspectFill">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="ToLearnMore_Clicked" NumberOfTapsRequired="1" />
+                    </Image.GestureRecognizers>
+                </Image>
+
+                <Button Grid.Row="1" Grid.Column="1" Text="Learn More"
+                        Clicked="ToLearnMore_Clicked"
+                        BackgroundColor="#e5d409"
                         Opacity="65"
+                        TextColor="White" />
+
+
+            </Grid>
+
+
+            <Grid RowSpacing="0" ColumnSpacing="16" HorizontalOptions="Center" VerticalOptions="Center" Padding="0,16,0,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="150"></ColumnDefinition>
+                    <ColumnDefinition Width="150"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+
+                <Image Source="red2.png" Grid.Row="0" Grid.Column="0" Aspect="AspectFill">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="ToHaveYourSay_Clicked" NumberOfTapsRequired="1" />
+                    </Image.GestureRecognizers>
+                </Image>
+
+                <Button Grid.Row="1" Grid.Column="0" Text="Have Your Say"
+                        BackgroundColor="#aa1a1a"
+                        Clicked="ToHaveYourSay_Clicked"
+                        Opacity="0.9"
+                        TextColor="White" />
+
+
+                <Image Source="blue.png" Grid.Row="0" Grid.Column="1" Aspect="AspectFill">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="ToHelpMe_Clicked" NumberOfTapsRequired="1" />
+                    </Image.GestureRecognizers>
+                </Image>
+
+
+
+                <Button Grid.Row="1" Grid.Column="1" Text="Help Me"
+                        BackgroundColor="#759fe3"
+                        Clicked="ToHelpMe_Clicked"
+                        Opacity="0.9"
                         TextColor="White" />
             </Grid>
-            
 
-            <Button Grid.Row="1" Grid.Column="0" Text="Have Your Say"
-                        BackgroundColor="#FB4343"
-                        Opacity="65"
-                        TextColor="White" />
 
-            <Button Grid.Row="1" Grid.Column="1" Text="Help Me"
-                        BackgroundColor="#3939DB"
-                        Opacity="65"
-                        TextColor="White" />
-        </Grid>
+
+
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>

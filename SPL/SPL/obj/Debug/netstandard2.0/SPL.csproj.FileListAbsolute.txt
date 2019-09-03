@@ -43,5 +43,7 @@ C:\Users\csit321_wjt01a\Source\Repos\Kiarazen\SIApp\SPL\SPL\obj\Debug\netstandar
 C:\Users\csit321_wjt01a\Source\Repos\Kiarazen\SIApp\SPL\SPL\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\csit321_wjt01a\Source\Repos\Kiarazen\SIApp\SPL\SPL\obj\Debug\netstandard2.0\SPL.dll
 C:\Users\csit321_wjt01a\Source\Repos\Kiarazen\SIApp\SPL\SPL\obj\Debug\netstandard2.0\SPL.pdb
-C:\Users\csit321_wjt01a\Source\Repos\Kiarazen\SIApp\SPL\SPL\obj\Debug\netstandard2.0\Views\Page1.xaml.g.cs
 C:\Users\csit321_wjt01a\Source\Repos\Kiarazen\SIApp\SPL\SPL\obj\Debug\netstandard2.0\Views\TitlePage.xaml.g.cs
+C:\Users\csit321_wjt01a\source\repos\Kiarazen\SIApp\SPL\SPL\obj\Debug\netstandard2.0\Views\HaveSay.xaml.g.cs
+C:\Users\csit321_wjt01a\source\repos\Kiarazen\SIApp\SPL\SPL\obj\Debug\netstandard2.0\Views\HelpMePage.xaml.g.cs
+C:\Users\csit321_wjt01a\source\repos\Kiarazen\SIApp\SPL\SPL\obj\Debug\netstandard2.0\Views\LearnPage.xaml.g.cs

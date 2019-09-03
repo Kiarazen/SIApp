@@ -1157,11 +1157,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\csit321_wjt01a\\Source\\Repos\\Kiarazen\\SIApp\\SPL\\SPL.Android\\SPL.Android.csproj",
+      "projectUniqueName": "C:\\Users\\csit321_wjt01a\\source\\repos\\Kiarazen\\SIApp\\SPL\\SPL.Android\\SPL.Android.csproj",
       "projectName": "SPL.Android",
-      "projectPath": "C:\\Users\\csit321_wjt01a\\Source\\Repos\\Kiarazen\\SIApp\\SPL\\SPL.Android\\SPL.Android.csproj",
+      "projectPath": "C:\\Users\\csit321_wjt01a\\source\\repos\\Kiarazen\\SIApp\\SPL\\SPL.Android\\SPL.Android.csproj",
       "packagesPath": "C:\\Users\\csit321_wjt01a\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\csit321_wjt01a\\Source\\Repos\\Kiarazen\\SIApp\\SPL\\SPL.Android\\obj\\",
+      "outputPath": "C:\\Users\\csit321_wjt01a\\source\\repos\\Kiarazen\\SIApp\\SPL\\SPL.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1182,8 +1182,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "C:\\Users\\csit321_wjt01a\\Source\\Repos\\Kiarazen\\SIApp\\SPL\\SPL\\SPL.csproj": {
-              "projectPath": "C:\\Users\\csit321_wjt01a\\Source\\Repos\\Kiarazen\\SIApp\\SPL\\SPL\\SPL.csproj"
+            "C:\\Users\\csit321_wjt01a\\source\\repos\\Kiarazen\\SIApp\\SPL\\SPL\\SPL.csproj": {
+              "projectPath": "C:\\Users\\csit321_wjt01a\\source\\repos\\Kiarazen\\SIApp\\SPL\\SPL\\SPL.csproj"
             }
           }
         }

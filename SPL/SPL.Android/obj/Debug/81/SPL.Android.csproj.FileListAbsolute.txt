@@ -696,3 +696,15 @@ C:\Users\csit321_wjt01a\Source\Repos\Kiarazen\SIApp\SPL\SPL.Android\obj\Debug\81
 C:\Users\csit321_wjt01a\Source\Repos\Kiarazen\SIApp\SPL\SPL.Android\obj\Debug\81\stamp\_GenerateJavaStubs.stamp
 C:\Users\csit321_wjt01a\Source\Repos\Kiarazen\SIApp\SPL\SPL.Android\obj\Debug\81\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\csit321_wjt01a\Source\Repos\Kiarazen\SIApp\SPL\SPL.Android\obj\Debug\81\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\csit321_wjt01a\source\repos\Kiarazen\SIApp\SPL\SPL.Android\obj\Debug\81\android\assets\System.Runtime.dll
+C:\Users\csit321_wjt01a\source\repos\Kiarazen\SIApp\SPL\SPL.Android\obj\Debug\81\res\drawable\blue.png
+C:\Users\csit321_wjt01a\source\repos\Kiarazen\SIApp\SPL\SPL.Android\obj\Debug\81\res\drawable\disabled.png
+C:\Users\csit321_wjt01a\source\repos\Kiarazen\SIApp\SPL\SPL.Android\obj\Debug\81\res\drawable\green2.png
+C:\Users\csit321_wjt01a\source\repos\Kiarazen\SIApp\SPL\SPL.Android\obj\Debug\81\res\drawable\healthcare.png
+C:\Users\csit321_wjt01a\source\repos\Kiarazen\SIApp\SPL\SPL.Android\obj\Debug\81\res\drawable\learn.png
+C:\Users\csit321_wjt01a\source\repos\Kiarazen\SIApp\SPL\SPL.Android\obj\Debug\81\res\drawable\red2.png
+C:\Users\csit321_wjt01a\source\repos\Kiarazen\SIApp\SPL\SPL.Android\obj\Debug\81\res\drawable\safep.png
+C:\Users\csit321_wjt01a\source\repos\Kiarazen\SIApp\SPL\SPL.Android\obj\Debug\81\res\drawable\sidisaster.png
+C:\Users\csit321_wjt01a\source\repos\Kiarazen\SIApp\SPL\SPL.Android\obj\Debug\81\res\drawable\swelfare.png
+C:\Users\csit321_wjt01a\source\repos\Kiarazen\SIApp\SPL\SPL.Android\obj\Debug\81\res\drawable\yellow.png
+C:\Users\csit321_wjt01a\source\repos\Kiarazen\SIApp\SPL\SPL.Android\obj\Debug\81\res\drawable\yellow2.png
