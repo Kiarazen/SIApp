@@ -5,11 +5,6 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="SPL.Views.TitlePage">
-    <ContentPage.Content>
-        <StackLayout>
-            <Button Text="Start" Clicked="ToHomePage_Clicked"
-                    VerticalOptions="CenterAndExpand"
-                    HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+  
+       
 </ContentPage>
