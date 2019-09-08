@@ -13,7 +13,7 @@
 namespace SPL.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\SocProtPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/SocProtPage.xaml")]
     public partial class SocProtPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

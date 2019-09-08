@@ -1151,39 +1151,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\csit321_wjt01a\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "/Users/kiarazentrich/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\csit321_wjt01a\\Source\\Repos\\Kiarazen\\SIApp\\SPL\\SPL.Android\\SPL.Android.csproj",
+      "projectUniqueName": "/Users/kiarazentrich/Projects/Sol/SPL/SPL.Android/SPL.Android.csproj",
       "projectName": "SPL.Android",
-      "projectPath": "C:\\Users\\csit321_wjt01a\\Source\\Repos\\Kiarazen\\SIApp\\SPL\\SPL.Android\\SPL.Android.csproj",
-      "packagesPath": "C:\\Users\\csit321_wjt01a\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\csit321_wjt01a\\Source\\Repos\\Kiarazen\\SIApp\\SPL\\SPL.Android\\obj\\",
+      "projectPath": "/Users/kiarazentrich/Projects/Sol/SPL/SPL.Android/SPL.Android.csproj",
+      "packagesPath": "/Users/kiarazentrich/.nuget/packages/",
+      "outputPath": "/Users/kiarazentrich/Projects/Sol/SPL/SPL.Android/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\csit321_wjt01a\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/Users/kiarazentrich/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "monoandroid81"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "C:\\Users\\csit321_wjt01a\\Source\\Repos\\Kiarazen\\SIApp\\SPL\\SPL\\SPL.csproj": {
-              "projectPath": "C:\\Users\\csit321_wjt01a\\Source\\Repos\\Kiarazen\\SIApp\\SPL\\SPL\\SPL.csproj"
+            "/Users/kiarazentrich/Projects/Sol/SPL/SPL/SPL.csproj": {
+              "projectPath": "/Users/kiarazentrich/Projects/Sol/SPL/SPL/SPL.csproj"
             }
           }
         }

@@ -1,49 +1,83 @@
-C:\SPL\SPL\SPL\bin\Debug\netstandard2.0\SPL.deps.json
-C:\SPL\SPL\SPL\bin\Debug\netstandard2.0\SPL.dll
-C:\SPL\SPL\SPL\bin\Debug\netstandard2.0\SPL.pdb
-C:\SPL\SPL\SPL\obj\Debug\netstandard2.0\SPL.csprojAssemblyReference.cache
-C:\SPL\SPL\SPL\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\SPL\SPL\SPL\obj\Debug\netstandard2.0\SPL.csproj.CoreCompileInputs.cache
-C:\SPL\SPL\SPL\obj\Debug\netstandard2.0\SPL.AssemblyInfoInputs.cache
-C:\SPL\SPL\SPL\obj\Debug\netstandard2.0\SPL.AssemblyInfo.cs
-C:\SPL\SPL\SPL\obj\Debug\netstandard2.0\XamlC.stamp
-C:\SPL\SPL\SPL\obj\Debug\netstandard2.0\SPL.dll
-C:\SPL\SPL\SPL\obj\Debug\netstandard2.0\SPL.pdb
-C:\SPL\SPL\SPL\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
-C:\SPL\SPL\SPL\obj\Debug\netstandard2.0\Views\SafeAboutPage.xaml.g.cs
-C:\SPL\SPL\SPL\obj\Debug\netstandard2.0\Views\SafeNetPage.xaml.g.cs
-C:\SPL\SPL\SPL\obj\Debug\netstandard2.0\Views\SocProtPage.xaml.g.cs
-C:\Users\csit321_wjt01a\Desktop\wjt_01 SourceCode\SPL\SPL\SPL\bin\Debug\netstandard2.0\SPL.deps.json
-C:\Users\csit321_wjt01a\Desktop\wjt_01 SourceCode\SPL\SPL\SPL\bin\Debug\netstandard2.0\SPL.dll
-C:\Users\csit321_wjt01a\Desktop\wjt_01 SourceCode\SPL\SPL\SPL\bin\Debug\netstandard2.0\SPL.pdb
-C:\Users\csit321_wjt01a\Desktop\wjt_01 SourceCode\SPL\SPL\SPL\obj\Debug\netstandard2.0\SPL.csprojAssemblyReference.cache
-C:\Users\csit321_wjt01a\Desktop\wjt_01 SourceCode\SPL\SPL\SPL\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\csit321_wjt01a\Desktop\wjt_01 SourceCode\SPL\SPL\SPL\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
-C:\Users\csit321_wjt01a\Desktop\wjt_01 SourceCode\SPL\SPL\SPL\obj\Debug\netstandard2.0\Views\SafeAboutPage.xaml.g.cs
-C:\Users\csit321_wjt01a\Desktop\wjt_01 SourceCode\SPL\SPL\SPL\obj\Debug\netstandard2.0\Views\SafeNetPage.xaml.g.cs
-C:\Users\csit321_wjt01a\Desktop\wjt_01 SourceCode\SPL\SPL\SPL\obj\Debug\netstandard2.0\Views\SocProtPage.xaml.g.cs
-C:\Users\csit321_wjt01a\Desktop\wjt_01 SourceCode\SPL\SPL\SPL\obj\Debug\netstandard2.0\SPL.csproj.CoreCompileInputs.cache
-C:\Users\csit321_wjt01a\Desktop\wjt_01 SourceCode\SPL\SPL\SPL\obj\Debug\netstandard2.0\SPL.AssemblyInfoInputs.cache
-C:\Users\csit321_wjt01a\Desktop\wjt_01 SourceCode\SPL\SPL\SPL\obj\Debug\netstandard2.0\SPL.AssemblyInfo.cs
-C:\Users\csit321_wjt01a\Desktop\wjt_01 SourceCode\SPL\SPL\SPL\obj\Debug\netstandard2.0\XamlC.stamp
-C:\Users\csit321_wjt01a\Desktop\wjt_01 SourceCode\SPL\SPL\SPL\obj\Debug\netstandard2.0\SPL.dll
-C:\Users\csit321_wjt01a\Desktop\wjt_01 SourceCode\SPL\SPL\SPL\obj\Debug\netstandard2.0\SPL.pdb
-C:\Users\csit321_wjt01a\Source\Repos\Kiarazen\SIApp\SPL\SPL\bin\Debug\netstandard2.0\SPL.deps.json
-C:\Users\csit321_wjt01a\Source\Repos\Kiarazen\SIApp\SPL\SPL\bin\Debug\netstandard2.0\SPL.dll
-C:\Users\csit321_wjt01a\Source\Repos\Kiarazen\SIApp\SPL\SPL\bin\Debug\netstandard2.0\SPL.pdb
-C:\Users\csit321_wjt01a\Source\Repos\Kiarazen\SIApp\SPL\SPL\obj\Debug\netstandard2.0\SPL.csprojAssemblyReference.cache
-C:\Users\csit321_wjt01a\Source\Repos\Kiarazen\SIApp\SPL\SPL\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\csit321_wjt01a\Source\Repos\Kiarazen\SIApp\SPL\SPL\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
-C:\Users\csit321_wjt01a\Source\Repos\Kiarazen\SIApp\SPL\SPL\obj\Debug\netstandard2.0\Views\SafeAboutPage.xaml.g.cs
-C:\Users\csit321_wjt01a\Source\Repos\Kiarazen\SIApp\SPL\SPL\obj\Debug\netstandard2.0\Views\SafeNetPage.xaml.g.cs
-C:\Users\csit321_wjt01a\Source\Repos\Kiarazen\SIApp\SPL\SPL\obj\Debug\netstandard2.0\Views\SocProtPage.xaml.g.cs
-C:\Users\csit321_wjt01a\Source\Repos\Kiarazen\SIApp\SPL\SPL\obj\Debug\netstandard2.0\SPL.csproj.CoreCompileInputs.cache
-C:\Users\csit321_wjt01a\Source\Repos\Kiarazen\SIApp\SPL\SPL\obj\Debug\netstandard2.0\SPL.AssemblyInfoInputs.cache
-C:\Users\csit321_wjt01a\Source\Repos\Kiarazen\SIApp\SPL\SPL\obj\Debug\netstandard2.0\SPL.AssemblyInfo.cs
-C:\Users\csit321_wjt01a\Source\Repos\Kiarazen\SIApp\SPL\SPL\obj\Debug\netstandard2.0\XamlC.stamp
-C:\Users\csit321_wjt01a\Source\Repos\Kiarazen\SIApp\SPL\SPL\obj\Debug\netstandard2.0\SPL.dll
-C:\Users\csit321_wjt01a\Source\Repos\Kiarazen\SIApp\SPL\SPL\obj\Debug\netstandard2.0\SPL.pdb
-C:\Users\csit321_wjt01a\Source\Repos\Kiarazen\SIApp\SPL\SPL\obj\Debug\netstandard2.0\Views\TitlePage.xaml.g.cs
-C:\Users\csit321_wjt01a\source\repos\Kiarazen\SIApp\SPL\SPL\obj\Debug\netstandard2.0\Views\HaveSay.xaml.g.cs
-C:\Users\csit321_wjt01a\source\repos\Kiarazen\SIApp\SPL\SPL\obj\Debug\netstandard2.0\Views\HelpMePage.xaml.g.cs
-C:\Users\csit321_wjt01a\source\repos\Kiarazen\SIApp\SPL\SPL\obj\Debug\netstandard2.0\Views\LearnPage.xaml.g.cs
+C:/SPL/SPL/SPL/bin/Debug/netstandard2.0/SPL.deps.json
+C:/SPL/SPL/SPL/bin/Debug/netstandard2.0/SPL.dll
+C:/SPL/SPL/SPL/bin/Debug/netstandard2.0/SPL.pdb
+C:/SPL/SPL/SPL/obj/Debug/netstandard2.0/SPL.csprojAssemblyReference.cache
+C:/SPL/SPL/SPL/obj/Debug/netstandard2.0/App.xaml.g.cs
+C:/SPL/SPL/SPL/obj/Debug/netstandard2.0/SPL.csproj.CoreCompileInputs.cache
+C:/SPL/SPL/SPL/obj/Debug/netstandard2.0/SPL.AssemblyInfoInputs.cache
+C:/SPL/SPL/SPL/obj/Debug/netstandard2.0/SPL.AssemblyInfo.cs
+C:/SPL/SPL/SPL/obj/Debug/netstandard2.0/XamlC.stamp
+C:/SPL/SPL/SPL/obj/Debug/netstandard2.0/SPL.dll
+C:/SPL/SPL/SPL/obj/Debug/netstandard2.0/SPL.pdb
+C:/SPL/SPL/SPL/obj/Debug/netstandard2.0/Views/HomePage.xaml.g.cs
+C:/SPL/SPL/SPL/obj/Debug/netstandard2.0/Views/SafeAboutPage.xaml.g.cs
+C:/SPL/SPL/SPL/obj/Debug/netstandard2.0/Views/SafeNetPage.xaml.g.cs
+C:/SPL/SPL/SPL/obj/Debug/netstandard2.0/Views/SocProtPage.xaml.g.cs
+C:/Users/csit321_wjt01a/Desktop/wjt_01 SourceCode/SPL/SPL/SPL/bin/Debug/netstandard2.0/SPL.deps.json
+C:/Users/csit321_wjt01a/Desktop/wjt_01 SourceCode/SPL/SPL/SPL/bin/Debug/netstandard2.0/SPL.dll
+C:/Users/csit321_wjt01a/Desktop/wjt_01 SourceCode/SPL/SPL/SPL/bin/Debug/netstandard2.0/SPL.pdb
+C:/Users/csit321_wjt01a/Desktop/wjt_01 SourceCode/SPL/SPL/SPL/obj/Debug/netstandard2.0/SPL.csprojAssemblyReference.cache
+C:/Users/csit321_wjt01a/Desktop/wjt_01 SourceCode/SPL/SPL/SPL/obj/Debug/netstandard2.0/App.xaml.g.cs
+C:/Users/csit321_wjt01a/Desktop/wjt_01 SourceCode/SPL/SPL/SPL/obj/Debug/netstandard2.0/Views/HomePage.xaml.g.cs
+C:/Users/csit321_wjt01a/Desktop/wjt_01 SourceCode/SPL/SPL/SPL/obj/Debug/netstandard2.0/Views/SafeAboutPage.xaml.g.cs
+C:/Users/csit321_wjt01a/Desktop/wjt_01 SourceCode/SPL/SPL/SPL/obj/Debug/netstandard2.0/Views/SafeNetPage.xaml.g.cs
+C:/Users/csit321_wjt01a/Desktop/wjt_01 SourceCode/SPL/SPL/SPL/obj/Debug/netstandard2.0/Views/SocProtPage.xaml.g.cs
+C:/Users/csit321_wjt01a/Desktop/wjt_01 SourceCode/SPL/SPL/SPL/obj/Debug/netstandard2.0/SPL.csproj.CoreCompileInputs.cache
+C:/Users/csit321_wjt01a/Desktop/wjt_01 SourceCode/SPL/SPL/SPL/obj/Debug/netstandard2.0/SPL.AssemblyInfoInputs.cache
+C:/Users/csit321_wjt01a/Desktop/wjt_01 SourceCode/SPL/SPL/SPL/obj/Debug/netstandard2.0/SPL.AssemblyInfo.cs
+C:/Users/csit321_wjt01a/Desktop/wjt_01 SourceCode/SPL/SPL/SPL/obj/Debug/netstandard2.0/XamlC.stamp
+C:/Users/csit321_wjt01a/Desktop/wjt_01 SourceCode/SPL/SPL/SPL/obj/Debug/netstandard2.0/SPL.dll
+C:/Users/csit321_wjt01a/Desktop/wjt_01 SourceCode/SPL/SPL/SPL/obj/Debug/netstandard2.0/SPL.pdb
+C:/Users/csit321_wjt01a/Source/Repos/Kiarazen/SIApp/SPL/SPL/bin/Debug/netstandard2.0/SPL.deps.json
+C:/Users/csit321_wjt01a/Source/Repos/Kiarazen/SIApp/SPL/SPL/bin/Debug/netstandard2.0/SPL.dll
+C:/Users/csit321_wjt01a/Source/Repos/Kiarazen/SIApp/SPL/SPL/bin/Debug/netstandard2.0/SPL.pdb
+C:/Users/csit321_wjt01a/Source/Repos/Kiarazen/SIApp/SPL/SPL/obj/Debug/netstandard2.0/SPL.csprojAssemblyReference.cache
+C:/Users/csit321_wjt01a/Source/Repos/Kiarazen/SIApp/SPL/SPL/obj/Debug/netstandard2.0/App.xaml.g.cs
+C:/Users/csit321_wjt01a/Source/Repos/Kiarazen/SIApp/SPL/SPL/obj/Debug/netstandard2.0/Views/HomePage.xaml.g.cs
+C:/Users/csit321_wjt01a/Source/Repos/Kiarazen/SIApp/SPL/SPL/obj/Debug/netstandard2.0/Views/SafeAboutPage.xaml.g.cs
+C:/Users/csit321_wjt01a/Source/Repos/Kiarazen/SIApp/SPL/SPL/obj/Debug/netstandard2.0/Views/SafeNetPage.xaml.g.cs
+C:/Users/csit321_wjt01a/Source/Repos/Kiarazen/SIApp/SPL/SPL/obj/Debug/netstandard2.0/Views/SocProtPage.xaml.g.cs
+C:/Users/csit321_wjt01a/Source/Repos/Kiarazen/SIApp/SPL/SPL/obj/Debug/netstandard2.0/SPL.csproj.CoreCompileInputs.cache
+C:/Users/csit321_wjt01a/Source/Repos/Kiarazen/SIApp/SPL/SPL/obj/Debug/netstandard2.0/SPL.AssemblyInfoInputs.cache
+C:/Users/csit321_wjt01a/Source/Repos/Kiarazen/SIApp/SPL/SPL/obj/Debug/netstandard2.0/SPL.AssemblyInfo.cs
+C:/Users/csit321_wjt01a/Source/Repos/Kiarazen/SIApp/SPL/SPL/obj/Debug/netstandard2.0/XamlC.stamp
+C:/Users/csit321_wjt01a/Source/Repos/Kiarazen/SIApp/SPL/SPL/obj/Debug/netstandard2.0/SPL.dll
+C:/Users/csit321_wjt01a/Source/Repos/Kiarazen/SIApp/SPL/SPL/obj/Debug/netstandard2.0/SPL.pdb
+C:/Users/csit321_wjt01a/Source/Repos/Kiarazen/SIApp/SPL/SPL/obj/Debug/netstandard2.0/Views/TitlePage.xaml.g.cs
+C:/Users/csit321_wjt01a/source/repos/Kiarazen/SIApp/SPL/SPL/obj/Debug/netstandard2.0/Views/HaveSay.xaml.g.cs
+C:/Users/csit321_wjt01a/source/repos/Kiarazen/SIApp/SPL/SPL/obj/Debug/netstandard2.0/Views/HelpMePage.xaml.g.cs
+C:/Users/csit321_wjt01a/source/repos/Kiarazen/SIApp/SPL/SPL/obj/Debug/netstandard2.0/Views/LearnPage.xaml.g.cs
+/Users/kiarazentrich/Projects/Sol/SPL/SPL/bin/Debug/netstandard2.0/SPL.deps.json
+/Users/kiarazentrich/Projects/Sol/SPL/SPL/bin/Debug/netstandard2.0/SPL.dll
+/Users/kiarazentrich/Projects/Sol/SPL/SPL/bin/Debug/netstandard2.0/SPL.pdb
+/Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/SPL.csprojAssemblyReference.cache
+/Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/Views/HaveSay.xaml.g.cs
+/Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/Views/HelpMePage.xaml.g.cs
+/Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/Views/HomePage.xaml.g.cs
+/Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/Views/LearnPage.xaml.g.cs
+/Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/Views/SafeAboutPage.xaml.g.cs
+/Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/Views/SafeNetPage.xaml.g.cs
+/Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/Views/SocProtPage.xaml.g.cs
+/Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/Views/TitlePage.xaml.g.cs
+/Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/SPL.csproj.CoreCompileInputs.cache
+/Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/SPL.AssemblyInfoInputs.cache
+/Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/SPL.AssemblyInfo.cs
+/Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/SPL.dll
+/Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/SPL.pdb
+/Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/SafeNetMembers.xaml.g.cs
+/Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/SafeNetWhere.xaml.g.cs
+/Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/SafeNet_Access.xaml.g.cs
+/Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/CCCPage.xaml.g.cs
+/Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/FSCPage.xaml.g.cs
+/Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/NRHPage.xaml.g.cs
+/Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/OthersPage.xaml.g.cs
+/Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/RSPIF_Page.xaml.g.cs
+/Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/SIPPAPage.xaml.g.cs
+/Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/DisabilitiesPage.xaml.g.cs
+/Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/DisastersPage.xaml.g.cs
+/Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/EducationPage.xaml.g.cs
+/Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/HealthcarePage.xaml.g.cs
+/Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/SocialWelfarePage.xaml.g.cs
+/Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/CrisisAssistancePage.xaml.g.cs

@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="SPL.SocialWelfarePage">
+    <ContentPage.Content>
+     <ScrollView>
+            <StackLayout Margin="0,55,0,0">
+                <Grid RowSpacing="0" ColumnSpacing="16" HorizontalOptions="Center" Padding="0,0,0,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="100"></RowDefinition>
+                        <RowDefinition Height="50"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150"></ColumnDefinition>
+                        <ColumnDefinition Width="150"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+
+
+                    <Image Source="crisis.png" Grid.Row="0" Grid.Column="0" Aspect="AspectFill">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="ToCrisis_Clicked" NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Button Grid.Row="1" Grid.Column="0" Text="Crisis Assistance"
+                        BackgroundColor="Black"
+                        Clicked="ToCrisis_Clicked"
+                        Opacity="0.9"
+                        TextColor="White" Padding="0" />
+
+                    <Image Source="victim.png" Grid.Row="0" Grid.Column="1" Aspect="AspectFill">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="ToCrisis_Clicked" NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+
+                    <Button Grid.Row="1" Grid.Column="1" Text="Victim Response"
+                        Clicked="ToCrisis_Clicked"
+                        BackgroundColor="Black"
+                        Opacity="0.9"
+                        TextColor="White" Padding="0" />
+
+                </Grid>
+                <Grid RowSpacing="0" ColumnSpacing="16" HorizontalOptions="Center" VerticalOptions="Center" Padding="0,60,0,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="100"></RowDefinition>
+                        <RowDefinition Height="50"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150"></ColumnDefinition>
+                        <ColumnDefinition Width="150"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+
+                    <Image Source="child.png" Grid.Row="0" Grid.Column="0" Aspect="AspectFill">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="ToCrisis_Clicked" NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+
+                    <Button Grid.Row="1" Grid.Column="0" Text="Child Protection"
+                        BackgroundColor="Black"
+                        Clicked="ToCrisis_Clicked"
+                        Opacity="0.9"
+                        TextColor="White" Padding="0" />
+
+
+                    <Image Source="family.png" Grid.Row="0" Grid.Column="1" Aspect="AspectFill">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="ToCrisis_Clicked" NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+
+
+
+                    <Button Grid.Row="1" Grid.Column="1" Text="Family Support"
+                        BackgroundColor="Black"
+                        Clicked="ToCrisis_Clicked"
+                        Opacity="0.9"
+                        TextColor="White" />
+                </Grid>
+
+                <Grid RowSpacing="0" ColumnSpacing="16" HorizontalOptions="Center" VerticalOptions="Center" Padding="0,16,0,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="100"></RowDefinition>
+                        <RowDefinition Height="50"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150"></ColumnDefinition>
+                        <ColumnDefinition Width="150"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+
+                    <Image Source="adoption.png" Grid.Row="0" Grid.Column="0" Aspect="AspectFill">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="ToCrisis_Clicked" NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+
+                    <Button Grid.Row="1" Grid.Column="0" Text="Adoption"
+                        BackgroundColor="Black"
+                        Clicked="ToCrisis_Clicked"
+                        Opacity="0.9"
+                        TextColor="White" Padding="0" />
+
+
+                    <Image Source="school.png" Grid.Row="0" Grid.Column="1" Aspect="AspectFill">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="ToCrisis_Clicked" NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+
+
+
+                    <Button Grid.Row="1" Grid.Column="1" Text="School Fee Remission"
+                        BackgroundColor="Black"
+                        Clicked="ToCrisis_Clicked"
+                        Opacity="0.9"
+                        TextColor="White" />
+                </Grid>
+
+
+                <Grid RowSpacing="0" ColumnSpacing="16" HorizontalOptions="Center" VerticalOptions="Center" Padding="0,60,0,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="100"></RowDefinition>
+                        <RowDefinition Height="50"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150"></ColumnDefinition>
+                        <ColumnDefinition Width="150"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+
+                    <Image Source="family_court.png" Grid.Row="0" Grid.Column="0" Aspect="AspectFill">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="ToCrisis_Clicked" NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+
+                    <Button Grid.Row="1" Grid.Column="0" Text="Family Court"
+                        BackgroundColor="Black"
+                        Clicked="ToCrisis_Clicked"
+                        Opacity="0.9"
+                        TextColor="White" Padding="0" />
+
+
+                    <Image Source="juvenile_court.png" Grid.Row="0" Grid.Column="1" Aspect="AspectFill">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="ToCrisis_Clicked" NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+
+
+
+                    <Button Grid.Row="1" Grid.Column="1" Text="Juvenile Court"
+                        BackgroundColor="Black"
+                        Clicked="ToCrisis_Clicked"
+                        Opacity="0.9"
+                        TextColor="White" />
+                </Grid>
+
+                <Grid RowSpacing="0" ColumnSpacing="16" HorizontalOptions="Center" VerticalOptions="Center" Padding="0,16,0,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="100"></RowDefinition>
+                        <RowDefinition Height="50"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150"></ColumnDefinition>
+                        <ColumnDefinition Width="150"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+
+                    <Image Source="probation.png" Grid.Row="0" Grid.Column="0" Aspect="AspectFill">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="ToCrisis_Clicked" NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+
+                    <Button Grid.Row="1" Grid.Column="0" Text="Probation"
+                        BackgroundColor="Black"
+                        Clicked="ToCrisis_Clicked"
+                        Opacity="0.9"
+                        TextColor="White" Padding="0" />
+
+
+                    <Image Source="prisoner.png" Grid.Row="0" Grid.Column="1" Aspect="AspectFill">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="ToCrisis_Clicked" NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+
+
+
+                    <Button Grid.Row="1" Grid.Column="1" Text="Prisoner and Family"
+                        BackgroundColor="Black"
+                        Clicked="ToCrisis_Clicked"
+                        Opacity="0.9"
+                        TextColor="White" />
+                </Grid>
+
+                <Grid RowSpacing="0" ColumnSpacing="16" HorizontalOptions="Center" VerticalOptions="Center" Padding="0,60,0,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="100"></RowDefinition>
+                        <RowDefinition Height="50"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150"></ColumnDefinition>
+                        <ColumnDefinition Width="150"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+
+                    <Image Source="health_sector.png" Grid.Row="0" Grid.Column="0" Aspect="AspectFill">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="ToCrisis_Clicked" NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+
+                    <Button Grid.Row="1" Grid.Column="0" Text="Health Sector Welfare"
+                        BackgroundColor="Black"
+                        Clicked="ToCrisis_Clicked"
+                        Opacity="0.9"
+                        TextColor="White" Padding="0" />
+
+
+                    <Image Source="volunteer.png" Grid.Row="0" Grid.Column="1" Aspect="AspectFill">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="ToCrisis_Clicked" NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+
+
+
+                    <Button Grid.Row="1" Grid.Column="1" Text="Volunteer Scheme"
+                        BackgroundColor="Black"
+                        Clicked="ToCrisis_Clicked"
+                        Opacity="0.9"
+                        TextColor="White" />
+                </Grid>
+
+                <Grid RowSpacing="0" ColumnSpacing="16" HorizontalOptions="Center" VerticalOptions="Center" Padding="0,16,0,40">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="100"></RowDefinition>
+                        <RowDefinition Height="50"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150"></ColumnDefinition>
+                        <ColumnDefinition Width="150"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+
+                    <Image Source="letters.png" Grid.Row="0" Grid.Column="0" Aspect="AspectFill">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="ToCrisis_Clicked" NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+
+                    <Button Grid.Row="1" Grid.Column="0" Text="Declaration Letters"
+                        BackgroundColor="Black"
+                        Clicked="ToCrisis_Clicked"
+                        Opacity="0.9"
+                        TextColor="White" Padding="0" />
+
+
+                    <Image Source="other_welfare.png" Grid.Row="0" Grid.Column="1" Aspect="AspectFill">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="ToCrisis_Clicked" NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+
+
+
+                    <Button Grid.Row="1" Grid.Column="1" Text="Other Services"
+                        BackgroundColor="Black"
+                        Clicked="ToCrisis_Clicked"
+                        Opacity="0.9"
+                        TextColor="White" />
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

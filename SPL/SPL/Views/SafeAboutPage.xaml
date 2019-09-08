@@ -14,10 +14,7 @@
             <Label Grid.Row="1" FontSize="Medium">
                 Go and learn more about Safenet
             </Label>
-            <Button Grid.Row="3" Text ="Explore" 
-                    Command="{Binding OpenWebCommand}" 
-                    FontAttributes="Bold" 
-                    FontSize="Medium" />
+          
         </Grid>
     </ContentPage.Content>
 </ContentPage>

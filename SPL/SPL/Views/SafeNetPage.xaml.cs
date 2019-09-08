@@ -21,5 +21,20 @@ namespace SPL.Views
         {
             await Navigation.PushModalAsync(new NavigationPage(new SafeAboutPage()));
         }
+
+        async void ToMembers_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new NavigationPage(new SafeNetMembers()));
+        }
+
+        async void ToWhere_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new NavigationPage(new SafeNetWhere()));
+        }
+
+        async void ToAccess_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new NavigationPage(new SafeNet_Access()));
+        }
     }
 }

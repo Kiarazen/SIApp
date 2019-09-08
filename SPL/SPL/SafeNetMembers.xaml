@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="SPL.SafeNetMembers">
+
+<ContentPage.Content>
+        <ScrollView>
+            <StackLayout Margin="0,45,0,0">
+                <Grid RowSpacing="0" ColumnSpacing="16" HorizontalOptions="Center" Padding="0,0,0,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="100"></RowDefinition>
+                        <RowDefinition Height="50"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150"></ColumnDefinition>
+                        <ColumnDefinition Width="150"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Image Source="FSC.png" Grid.Row="0" Grid.Column="0" Aspect="AspectFill">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="ToFSC_Clicked" NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Button Grid.Row="1" Grid.Column="0" Text="FSC"
+                        BackgroundColor="Black"
+                        Clicked="ToFSC_Clicked"
+                        Opacity="0.9"
+                        TextColor="White" Padding="0" />
+
+                    
+                    <Image Source="CCC.png" Grid.Row="0" Grid.Column="1" Aspect="AspectFill">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="ToCCC_Clicked" NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+
+                    <Button Grid.Row="1" Grid.Column="1" Text="CCC"
+                        Clicked="ToCCC_Clicked"
+                        BackgroundColor="Black"
+                        Opacity="0.9"
+                        TextColor="White" Padding="0" />
+
+                </Grid>
+                <Grid RowSpacing="0" ColumnSpacing="16" HorizontalOptions="Center" VerticalOptions="Center" Padding="0,16,0,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="100"></RowDefinition>
+                        <RowDefinition Height="50"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150"></ColumnDefinition>
+                        <ColumnDefinition Width="150"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+
+                    <Image Source="RSIPF.png" Grid.Row="0" Grid.Column="0" Aspect="AspectFill">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="ToRSPIF_Clicked" NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+
+                    <Button Grid.Row="1" Grid.Column="0" Text="RSIPF"
+                        BackgroundColor="Black"
+                        Clicked="ToRSPIF_Clicked"
+                        Opacity="0.9"
+                        TextColor="White" Padding="0" />
+
+
+                    <Image Source="SIPPA.png" Grid.Row="0" Grid.Column="1" Aspect="AspectFill">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="ToSIPPA_Clicked" NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+
+
+
+                    <Button Grid.Row="1" Grid.Column="1" Text="SIPPA"
+                        BackgroundColor="Black"
+                        Clicked="ToSIPPA_Clicked"
+                        Opacity="0.9"
+                        TextColor="White" />
+                </Grid>
+
+                <Grid RowSpacing="0" ColumnSpacing="16" HorizontalOptions="Center" VerticalOptions="Center" Padding="0,16,0,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="100"></RowDefinition>
+                        <RowDefinition Height="50"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150"></ColumnDefinition>
+                        <ColumnDefinition Width="150"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+
+                    <Image Source="NRH.png" Grid.Row="0" Grid.Column="0" Aspect="AspectFill">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="ToNRH_Clicked" NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+
+                    <Button Grid.Row="1" Grid.Column="0" Text="NRH"
+                        BackgroundColor="Black"
+                        Clicked="ToNRH_Clicked"
+                        Opacity="0.9"
+                        TextColor="White" Padding="0" />
+
+
+                    <Image Source="others.png" Grid.Row="0" Grid.Column="1" Aspect="AspectFill">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="ToOthers_Clicked" NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+
+
+
+                    <Button Grid.Row="1" Grid.Column="1" Text="Others"
+                        BackgroundColor="Black"
+                        Clicked="ToOthers_Clicked"
+                        Opacity="0.9"
+                        TextColor="White" />
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+
+
+</ContentPage>

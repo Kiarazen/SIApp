@@ -13,7 +13,7 @@
 namespace SPL.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\HelpMePage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/HelpMePage.xaml")]
     public partial class HelpMePage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

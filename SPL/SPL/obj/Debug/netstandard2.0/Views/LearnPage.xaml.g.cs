@@ -13,7 +13,7 @@
 namespace SPL.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\LearnPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/LearnPage.xaml")]
     public partial class LearnPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

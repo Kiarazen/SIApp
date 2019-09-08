@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="SPL.Views.SocProtPage">
+             x:Class="SPL.Views.SocProtPage"
+             Title="Social Protections">
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Margin="0,55,0,0">
@@ -19,12 +20,12 @@
 
                     <Image Source="swelfare.png" Grid.Row="0" Grid.Column="0" Aspect="AspectFill">
                         <Image.GestureRecognizers>
-                            <TapGestureRecognizer Tapped="ToSafeNet_Clicked" NumberOfTapsRequired="1" />
+                            <TapGestureRecognizer Tapped="ToSocialWelfare_Clicked" NumberOfTapsRequired="1" />
                         </Image.GestureRecognizers>
                     </Image>
                     <Button Grid.Row="1" Grid.Column="0" Text="Social Welfare"
                         BackgroundColor="Black"
-                        Clicked="ToSafeNet_Clicked"
+                        Clicked="ToSocialWelfare_Clicked"
                         Opacity="0.9"
                         TextColor="White" Padding="0" />
 
@@ -54,20 +55,20 @@
 
                     <Image Source="disabled.png" Grid.Row="0" Grid.Column="0" Aspect="AspectFill">
                         <Image.GestureRecognizers>
-                            <TapGestureRecognizer Tapped="ToSafeNet_Clicked" NumberOfTapsRequired="1" />
+                            <TapGestureRecognizer Tapped="ToDisabilities_Clicked" NumberOfTapsRequired="1" />
                         </Image.GestureRecognizers>
                     </Image>
 
                     <Button Grid.Row="1" Grid.Column="0" Text="Disabilities"
                         BackgroundColor="Black"
-                        Clicked="ToSafeNet_Clicked"
+                        Clicked="ToDisabilities_Clicked"
                         Opacity="0.9"
                         TextColor="White" Padding="0" />
 
 
                     <Image Source="SIdisaster.png" Grid.Row="0" Grid.Column="1" Aspect="AspectFill">
                         <Image.GestureRecognizers>
-                            <TapGestureRecognizer Tapped="ToSafeNet_Clicked" NumberOfTapsRequired="1" />
+                            <TapGestureRecognizer Tapped="ToDisasters_Clicked" NumberOfTapsRequired="1" />
                         </Image.GestureRecognizers>
                     </Image>
 
@@ -75,7 +76,7 @@
 
                     <Button Grid.Row="1" Grid.Column="1" Text="Disasters"
                         BackgroundColor="Black"
-                        Clicked="ToSafeNet_Clicked"
+                        Clicked="ToDisasters_Clicked"
                         Opacity="0.9"
                         TextColor="White" />
                 </Grid>
@@ -93,20 +94,20 @@
 
                     <Image Source="healthcare.png" Grid.Row="0" Grid.Column="0" Aspect="AspectFill">
                         <Image.GestureRecognizers>
-                            <TapGestureRecognizer Tapped="ToSafeNet_Clicked" NumberOfTapsRequired="1" />
+                            <TapGestureRecognizer Tapped="ToHealthcare_Clicked" NumberOfTapsRequired="1" />
                         </Image.GestureRecognizers>
                     </Image>
 
                     <Button Grid.Row="1" Grid.Column="0" Text="Health"
                         BackgroundColor="Black"
-                        Clicked="ToSafeNet_Clicked"
+                        Clicked="ToHealthcare_Clicked"
                         Opacity="0.9"
                         TextColor="White" Padding="0" />
 
 
                     <Image Source="learn.png" Grid.Row="0" Grid.Column="1" Aspect="AspectFill">
                         <Image.GestureRecognizers>
-                            <TapGestureRecognizer Tapped="ToSafeNet_Clicked" NumberOfTapsRequired="1" />
+                            <TapGestureRecognizer Tapped="ToEducation_Clicked" NumberOfTapsRequired="1" />
                         </Image.GestureRecognizers>
                     </Image>
 
@@ -114,7 +115,7 @@
 
                     <Button Grid.Row="1" Grid.Column="1" Text="Education"
                         BackgroundColor="Black"
-                        Clicked="ToSafeNet_Clicked"
+                        Clicked="ToEducation_Clicked"
                         Opacity="0.9"
                         TextColor="White" />
                 </Grid>

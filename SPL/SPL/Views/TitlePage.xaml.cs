@@ -22,8 +22,8 @@ namespace SPL.Views
             splashImage = new Image
             {
                 Source = "logo.png",
-                WidthRequest= 370,
-                HeightRequest= 370
+                WidthRequest= 320,
+                HeightRequest= 320
             };
 
             AbsoluteLayout.SetLayoutFlags(splashImage,

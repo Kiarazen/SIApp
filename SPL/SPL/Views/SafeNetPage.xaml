@@ -1,36 +1,92 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="SPL.Views.SafeNetPage">
+             x:Class="SPL.Views.SafeNetPage"
+             Title="SafeNet &amp; Seif Ples"
+             >
     <ContentPage.Content>
-        <Grid RowSpacing="10" ColumnSpacing="16" HorizontalOptions="Center" Padding="0,30,0,0">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"></RowDefinition>
-                <RowDefinition Height="Auto"></RowDefinition>
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="Auto"></ColumnDefinition>
-                <ColumnDefinition Width="Auto"></ColumnDefinition>
-            </Grid.ColumnDefinitions>
-            <Button Grid.Row="0" Grid.Column="0" Text="About"
+     <StackLayout>
+
+            <Grid RowSpacing="0" ColumnSpacing="16" HorizontalOptions="Center" Padding="0,100,0,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="150"></ColumnDefinition>
+                    <ColumnDefinition Width="150"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <Image Source="About.png" Aspect="AspectFill" Grid.Row="0" Grid.Column="0">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="ToSafeAbout_Clicked" NumberOfTapsRequired="1" />
+                    </Image.GestureRecognizers>
+                </Image>
+
+                <Button Grid.Row="1" Grid.Column="0" Text="About"
+                        BackgroundColor="Black"
                         Clicked="ToSafeAbout_Clicked"
-                        BackgroundColor="Gray"
-                        Opacity="65"
-                        TextColor="White" />
-            <Button Grid.Row="0" Grid.Column="1" Text="SafeNet Members"
-                        BackgroundColor="Gray"
                         Opacity="65"
                         TextColor="White" />
 
-            <Button Grid.Row="1" Grid.Column="0" Text="Where To Go"
-                        BackgroundColor="Gray"
-                        Opacity="65"
-                        TextColor="White" Padding="0" />
+                <Image Source="members.png" Grid.Row="0" Grid.Column="1" Aspect="AspectFill">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="ToMembers_Clicked" NumberOfTapsRequired="1" />
+                    </Image.GestureRecognizers>
+                </Image>
 
-            <Button Grid.Row="1" Grid.Column="1" Text="Accessing Safenet"
-                        BackgroundColor="Gray"
+                <Button Grid.Row="1" Grid.Column="1" Text="SafeNet Members"
+                        Clicked="ToMembers_Clicked"
+                        BackgroundColor="Black"
                         Opacity="65"
                         TextColor="White" />
-        </Grid>
+
+
+            </Grid>
+
+
+            <Grid RowSpacing="0" ColumnSpacing="16" HorizontalOptions="Center" VerticalOptions="Center" Padding="0,16,0,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="150"></ColumnDefinition>
+                    <ColumnDefinition Width="150"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+
+                <Image Source="where.png" Grid.Row="0" Grid.Column="0" Aspect="AspectFill">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="ToWhere_Clicked" NumberOfTapsRequired="1" />
+                    </Image.GestureRecognizers>
+                </Image>
+
+                <Button Grid.Row="1" Grid.Column="0" Text="Where to Go"
+                        BackgroundColor="Black"
+                        Clicked="ToWhere_Clicked"
+                        Opacity="0.9"
+                        TextColor="White" />
+
+
+                <Image Source="access.png" Grid.Row="0" Grid.Column="1" Aspect="AspectFill">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="ToAccess_Clicked" NumberOfTapsRequired="1" />
+                    </Image.GestureRecognizers>
+                </Image>
+
+
+
+                <Button Grid.Row="1" Grid.Column="1" Text="Accessing SafeNet"
+                        BackgroundColor="Black"
+                        Clicked="ToAccess_Clicked"
+                        Opacity="0.9"
+                        TextColor="White" />
+            </Grid>
+
+
+
+
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -13,7 +13,7 @@
 namespace SPL.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\TitlePage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/TitlePage.xaml")]
     public partial class TitlePage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

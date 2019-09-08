@@ -1,32 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\csit321_wjt01a\\Source\\Repos\\Kiarazen\\SIApp\\SPL\\SPL\\SPL.csproj": {}
+    "/Users/kiarazentrich/Projects/Sol/SPL/SPL/SPL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\csit321_wjt01a\\Source\\Repos\\Kiarazen\\SIApp\\SPL\\SPL\\SPL.csproj": {
+    "/Users/kiarazentrich/Projects/Sol/SPL/SPL/SPL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\csit321_wjt01a\\Source\\Repos\\Kiarazen\\SIApp\\SPL\\SPL\\SPL.csproj",
+        "projectUniqueName": "/Users/kiarazentrich/Projects/Sol/SPL/SPL/SPL.csproj",
         "projectName": "SPL",
-        "projectPath": "C:\\Users\\csit321_wjt01a\\Source\\Repos\\Kiarazen\\SIApp\\SPL\\SPL\\SPL.csproj",
-        "packagesPath": "C:\\Users\\csit321_wjt01a\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\csit321_wjt01a\\Source\\Repos\\Kiarazen\\SIApp\\SPL\\SPL\\obj\\",
+        "projectPath": "/Users/kiarazentrich/Projects/Sol/SPL/SPL/SPL.csproj",
+        "packagesPath": "/Users/kiarazentrich/.nuget/packages/",
+        "outputPath": "/Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\csit321_wjt01a\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/kiarazentrich/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -52,6 +48,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[11.0.2, )"
+            },
+            "Xamarin.Android.Support.v7.CardView": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

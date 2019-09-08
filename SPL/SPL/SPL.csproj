@@ -17,11 +17,18 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Remove="SafeNetMembers.cs" />
+    <Compile Remove="MyPage.xaml.cs" />
+  </ItemGroup>
+  <ItemGroup>
     <Compile Update="Views\SocProtPage.xaml.cs">
       <DependentUpon>SocProtPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
+  <ItemGroup>
+    <EmbeddedResource Remove="MyPage.xaml" />
+  </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Update="Views\HaveSay.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
