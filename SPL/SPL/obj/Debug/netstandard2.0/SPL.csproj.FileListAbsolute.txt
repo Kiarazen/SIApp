@@ -81,3 +81,4 @@ C:/Users/csit321_wjt01a/source/repos/Kiarazen/SIApp/SPL/SPL/obj/Debug/netstandar
 /Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/HealthcarePage.xaml.g.cs
 /Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/SocialWelfarePage.xaml.g.cs
 /Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/CrisisAssistancePage.xaml.g.cs
+/Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/Controls/CardView.xaml.g.cs
