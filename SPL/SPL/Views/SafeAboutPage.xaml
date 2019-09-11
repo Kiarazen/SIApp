@@ -11,6 +11,7 @@
             <StackLayout>
                 <controls:CardView/>
                 <controls:CardView/>
+                <controls:CardView/>
             </StackLayout>
         </ScrollView>
             
