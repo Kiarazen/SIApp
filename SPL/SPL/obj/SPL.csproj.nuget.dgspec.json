@@ -39,10 +39,6 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
-            "MaterialDesignThemes": {
-              "target": "Package",
-              "version": "[2.6.0, )"
-            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -52,6 +48,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[11.0.2, )"
+            },
+            "Refractored.FloatingActionButton": {
+              "target": "Package",
+              "version": "[2.1.0, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

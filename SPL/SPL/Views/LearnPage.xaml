@@ -4,12 +4,72 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+             Visual="Material"
+             Title="Learn More"
              x:Class="SPL.Views.LearnPage">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+    <ScrollView>
+        <StackLayout Spacing="20" 
+                     Padding="10"
+                     BackgroundColor="White">
+      
+            <Frame Padding="16" Margin="0,30,0,0">
+                <StackLayout Spacing="16">
+                    <Image Source="video.png" 
+                           Margin="-16,-16,-16,0" 
+                           Aspect="AspectFill" />
+                    <Label Text="Awareness Videos" 
+                           FontSize="24" 
+                           TextColor="Black"/>
+                    <Label Text="Watch videos about social protections and how you can make the most of them"
+                           TextColor="Black"
+                           FontSize="14"
+                           Opacity="0.8" />
+                    <Button Text="EXPLORE" 
+                            HorizontalOptions="Start"
+                            TextColor="#018901"
+                            BackgroundColor="#FFFFFF"/>
+                </StackLayout>
+            </Frame>
+
+            
+            <Frame Padding="16" Margin="0,30,0,0">
+                <StackLayout Spacing="16">
+                    <Image Source="podcast.png" 
+                           Margin="-16,-16,-16,0" 
+                           Aspect="AspectFill" />
+                    <Label Text="Awareness Podcasts" 
+                           FontSize="24" 
+                           TextColor="Black"/>
+                    <Label Text="Listen to locals and experts share their stories and experiences"
+                           TextColor="Black"
+                           FontSize="14"
+                           Opacity="0.8" />
+                    <Button Text="EXPLORE" 
+                            HorizontalOptions="Start"
+                            TextColor="#018901"
+                            BackgroundColor="#FFFFFF"/>
+                </StackLayout>
+            </Frame>
+
+            <Frame Padding="16" Margin="0,30,0,0">
+                <StackLayout Spacing="16">
+                    <Image Source="quiz.png" 
+                           Margin="-16,-16,-16,0" 
+                           Aspect="AspectFill" />
+                    <Label Text="Test Yourself" 
+                           FontSize="24" 
+                           TextColor="Black"/>
+                    <Label Text="Take this quiz to test your knowledge of social protections"
+                           TextColor="Black"
+                           FontSize="14"
+                           Opacity="0.8" />
+                    <Button Text="EXPLORE" 
+                            HorizontalOptions="Start"
+                            TextColor="#018901"
+                            BackgroundColor="#FFFFFF"/>
+                </StackLayout>
+            </Frame>
+           
         </StackLayout>
-    </ContentPage.Content>
+    </ScrollView>
 </ContentPage>

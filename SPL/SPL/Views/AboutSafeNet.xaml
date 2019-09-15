@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:SPL"
+             x:Class="SPL.Views.AboutSafeNet"
+             Title="About"
+             Visual="Material">
+    <ScrollView>
+        <StackLayout Spacing="20" 
+                     Padding="10"
+                     BackgroundColor="White">
+      
+            <Frame Padding="16" Margin="0,30,0,0">
+                <StackLayout Spacing="16">
+                    <Image Source="safeWomen.png" 
+                           Margin="-16,-16,-16,0" 
+                           Aspect="AspectFill" />
+                    <Label Text="SafeNet for Women" 
+                           FontSize="24" 
+                           TextColor="Black"/>
+                    <Label Text="A happy and safe house for you and your children. You can live a life without domestic violence."
+                           TextColor="Black"
+                           FontSize="14"
+                           Opacity="0.8" />
+                    <Button Text="EXPLORE" 
+                            HorizontalOptions="Start"
+                            TextColor="#018901"
+                            BackgroundColor="#FFFFFF"/>
+                </StackLayout>
+            </Frame>
+
+            
+            <Frame Padding="16" Margin="0,30,0,0">
+                <StackLayout Spacing="16">
+                    <Image Source="safeMen.png" 
+                           Margin="-16,-16,-16,0" 
+                           Aspect="AspectFill" />
+                    <Label Text="SafeNet for Men" 
+                           FontSize="24" 
+                           TextColor="Black"/>
+                    <Label Text="Strong men protect their families. How can we all protect our families from domestic violence."
+                           TextColor="Black"
+                           FontSize="14"
+                           Opacity="0.8" />
+                    <Button Text="EXPLORE" 
+                            HorizontalOptions="Start"
+                            TextColor="#018901"
+                            BackgroundColor="#FFFFFF"/>
+                </StackLayout>
+            </Frame>
+
+           
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

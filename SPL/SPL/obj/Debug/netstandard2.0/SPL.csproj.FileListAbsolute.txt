@@ -56,7 +56,6 @@ C:/Users/csit321_wjt01a/source/repos/Kiarazen/SIApp/SPL/SPL/obj/Debug/netstandar
 /Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/Views/HelpMePage.xaml.g.cs
 /Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/Views/HomePage.xaml.g.cs
 /Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/Views/LearnPage.xaml.g.cs
-/Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/Views/SafeAboutPage.xaml.g.cs
 /Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/Views/SafeNetPage.xaml.g.cs
 /Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/Views/SocProtPage.xaml.g.cs
 /Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/Views/TitlePage.xaml.g.cs
@@ -81,4 +80,4 @@ C:/Users/csit321_wjt01a/source/repos/Kiarazen/SIApp/SPL/SPL/obj/Debug/netstandar
 /Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/HealthcarePage.xaml.g.cs
 /Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/SocialWelfarePage.xaml.g.cs
 /Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/CrisisAssistancePage.xaml.g.cs
-/Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/Controls/CardView.xaml.g.cs
+/Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/Views/AboutSafeNet.xaml.g.cs

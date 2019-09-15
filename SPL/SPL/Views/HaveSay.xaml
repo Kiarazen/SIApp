@@ -4,12 +4,41 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+             Title="Feedback"
+             Visual="Material"
              x:Class="SPL.Views.HaveSay">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+   <ScrollView>
+       <AbsoluteLayout>
+        <StackLayout Spacing="20" 
+                     Padding="10"
+                     BackgroundColor="White">
+      
+            <Frame Padding="16" Margin="0,30,0,0">
+                <StackLayout Spacing="16">
+                    <Image Source="feedback.png" 
+                           Margin="-16,-16,-16,0" 
+                           Aspect="AspectFill" />
+                    <Label Text="Have Your Say" 
+                           FontSize="24" 
+                           TextColor="Black"/>
+                    <Label Text="Loving this app? Or do you have some suggestions to make it better?"
+                           TextColor="Black"
+                           FontSize="12"
+                           Opacity="0.8" />
+                    <Label Text="Share your thoughts"
+                           TextColor="Black"
+                           FontSize="12"
+                           Opacity="0.6" />
+                </StackLayout>
+            </Frame>
+            <!--
+            <ImageButton Source="editFAB.png" 
+            BackgroundColor="Transparent"
+            AbsoluteLayout.LayoutFlags="PositionProportional"  
+            AbsoluteLayout.LayoutBounds=".95,.95,80,80" 
+            Clicked="Handle_Clicked" />
+            -->
         </StackLayout>
-    </ContentPage.Content>
+           </AbsoluteLayout>
+    </ScrollView>
 </ContentPage>
