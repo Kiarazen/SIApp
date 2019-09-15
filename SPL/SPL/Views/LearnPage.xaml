@@ -8,7 +8,7 @@
              Title="Learn More"
              x:Class="SPL.Views.LearnPage">
     <ScrollView>
-        <StackLayout Spacing="20" 
+        <StackLayout Spacing="21" 
                      Padding="10"
                      BackgroundColor="White">
       
