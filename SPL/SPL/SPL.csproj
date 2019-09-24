@@ -16,6 +16,7 @@
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
     <PackageReference Include="XamarinForms.CardView" Version="1.1.1.5" />
     <PackageReference Include="XamarinForms.CardView.NetStandard" Version="1.1.1.5" />
+    <PackageReference Include="SuaveControls.FloatingActionButton" Version="2018.1.5" />
   </ItemGroup>
 
   <ItemGroup>

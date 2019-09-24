@@ -11,6 +11,26 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "SuaveControls.FloatingActionButton/2018.1.5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.3.4.231"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Core",
+          "System.Xml",
+          "Xamarin.iOS"
+        ],
+        "compile": {
+          "lib/xamarinios10/SuaveControls.FloatingActionButton.dll": {},
+          "lib/xamarinios10/SuaveControls.FloatingActionButton.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/SuaveControls.FloatingActionButton.dll": {},
+          "lib/xamarinios10/SuaveControls.FloatingActionButton.iOS.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -184,6 +204,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "11.0.2",
+          "SuaveControls.FloatingActionButton": "2018.1.5",
           "Xamarin.Essentials": "1.0.1",
           "Xamarin.Forms": "3.6.0.264807",
           "XamarinForms.CardView": "1.1.1.5",
@@ -207,6 +228,26 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "SuaveControls.FloatingActionButton/2018.1.5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.3.4.231"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Core",
+          "System.Xml",
+          "Xamarin.iOS"
+        ],
+        "compile": {
+          "lib/xamarinios10/SuaveControls.FloatingActionButton.dll": {},
+          "lib/xamarinios10/SuaveControls.FloatingActionButton.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/SuaveControls.FloatingActionButton.dll": {},
+          "lib/xamarinios10/SuaveControls.FloatingActionButton.iOS.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -380,6 +421,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "11.0.2",
+          "SuaveControls.FloatingActionButton": "2018.1.5",
           "Xamarin.Essentials": "1.0.1",
           "Xamarin.Forms": "3.6.0.264807",
           "XamarinForms.CardView": "1.1.1.5",
@@ -403,6 +445,26 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "SuaveControls.FloatingActionButton/2018.1.5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.3.4.231"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Core",
+          "System.Xml",
+          "Xamarin.iOS"
+        ],
+        "compile": {
+          "lib/xamarinios10/SuaveControls.FloatingActionButton.dll": {},
+          "lib/xamarinios10/SuaveControls.FloatingActionButton.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/SuaveControls.FloatingActionButton.dll": {},
+          "lib/xamarinios10/SuaveControls.FloatingActionButton.iOS.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -576,6 +638,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "11.0.2",
+          "SuaveControls.FloatingActionButton": "2018.1.5",
           "Xamarin.Essentials": "1.0.1",
           "Xamarin.Forms": "3.6.0.264807",
           "XamarinForms.CardView": "1.1.1.5",
@@ -599,6 +662,26 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "SuaveControls.FloatingActionButton/2018.1.5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.3.4.231"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Core",
+          "System.Xml",
+          "Xamarin.iOS"
+        ],
+        "compile": {
+          "lib/xamarinios10/SuaveControls.FloatingActionButton.dll": {},
+          "lib/xamarinios10/SuaveControls.FloatingActionButton.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/SuaveControls.FloatingActionButton.dll": {},
+          "lib/xamarinios10/SuaveControls.FloatingActionButton.iOS.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -772,6 +855,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "11.0.2",
+          "SuaveControls.FloatingActionButton": "2018.1.5",
           "Xamarin.Essentials": "1.0.1",
           "Xamarin.Forms": "3.6.0.264807",
           "XamarinForms.CardView": "1.1.1.5",
@@ -815,6 +899,22 @@
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
         "newtonsoft.json.11.0.2.nupkg.sha512",
         "newtonsoft.json.nuspec"
+      ]
+    },
+    "SuaveControls.FloatingActionButton/2018.1.5": {
+      "sha512": "sgnBqhD3nXNT/yEO0DzS+WfaHYnhnf8K3g9FMD9o5CMpdG7NOuJme8AmbmOyEBHw0NeLMDX+FHmErVBCMq36BA==",
+      "type": "package",
+      "path": "suavecontrols.floatingactionbutton/2018.1.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid80/SuaveControls.FloatingActionButton.Droid.dll",
+        "lib/monoandroid80/SuaveControls.FloatingActionButton.dll",
+        "lib/portable45-net45+win8+wpa81/SuaveControls.FloatingActionButton.dll",
+        "lib/xamarinios10/SuaveControls.FloatingActionButton.dll",
+        "lib/xamarinios10/SuaveControls.FloatingActionButton.iOS.dll",
+        "suavecontrols.floatingactionbutton.2018.1.5.nupkg.sha512",
+        "suavecontrols.floatingactionbutton.nuspec"
       ]
     },
     "System.Numerics.Vectors/4.5.0": {

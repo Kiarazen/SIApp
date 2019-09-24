@@ -81,3 +81,5 @@ C:/Users/csit321_wjt01a/source/repos/Kiarazen/SIApp/SPL/SPL/obj/Debug/netstandar
 /Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/SocialWelfarePage.xaml.g.cs
 /Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/CrisisAssistancePage.xaml.g.cs
 /Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/Views/AboutSafeNet.xaml.g.cs
+/Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/Views/FeedbackP1.xaml.g.cs
+/Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/Views/FeedbackP2.xaml.g.cs

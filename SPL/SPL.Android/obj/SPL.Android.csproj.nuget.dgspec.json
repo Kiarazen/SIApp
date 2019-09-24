@@ -125,6 +125,10 @@
               "target": "Package",
               "version": "[11.0.2, )"
             },
+            "SuaveControls.FloatingActionButton": {
+              "target": "Package",
+              "version": "[2018.1.5, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.0.1, )"

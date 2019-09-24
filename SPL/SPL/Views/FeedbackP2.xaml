@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="SPL.Views.FeedbackP2">
+    <ContentPage.Content>
+              <StackLayout Margin="40">
+       <Grid RowSpacing="0" ColumnSpacing="16" HorizontalOptions="Center" Padding="0,0,0,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="4*"></RowDefinition>
+                    <RowDefinition Height="2*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    
+                </Grid.ColumnDefinitions>
+           </Grid>
+        <Image Source="useful.png" Aspect="AspectFill" Grid.Row="0" Grid.Column="0"/>
+                    
+         <Label Margin="40" Grid.Row="1" Grid.Column="0" TextColor="#004BA0" HorizontalTextAlignment="Center" FontSize="30" Text="Do you find this app useful?"/>
+
+    
+            <Grid 
+                  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+<Grid.RowDefinitions>
+<RowDefinition Height="Auto"></RowDefinition>
+</Grid.RowDefinitions>
+<Grid.ColumnDefinitions>
+<ColumnDefinition Width=""></ColumnDefinition>
+<ColumnDefinition Width=""></ColumnDefinition>
+</Grid.ColumnDefinitions>
+    
+            <Button Grid.Row="0" Grid.Column="0" Text="NO" 
+                            HorizontalOptions="Center"
+                    VerticalOptions="CenterAndExpand"
+                            TextColor="#004BA0"
+                            BackgroundColor="#FFFFFF"
+                    WidthRequest="110"
+                    
+                 />
+             <Button Grid.Row="0" Grid.Column="1" Text="YES" 
+                            HorizontalOptions="Center"
+                    VerticalOptions="CenterAndExpand"
+                            TextColor="#FFFFFF"
+                            BackgroundColor="#004BA0"
+                     WidthRequest="110"
+                     />
+           
+
+
+ </Grid>
+            </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

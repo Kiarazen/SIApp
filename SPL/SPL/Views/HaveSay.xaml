@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:views="clr-namespace:SuaveControls.Views;assembly=SuaveControls.FloatingActionButton"
              mc:Ignorable="d"
              Title="Feedback"
              Visual="Material"
@@ -11,7 +12,7 @@
        <AbsoluteLayout>
         <StackLayout Spacing="20" 
                      Padding="10"
-                     BackgroundColor="White">
+                     >
       
             <Frame Padding="16" Margin="0,30,0,0">
                 <StackLayout Spacing="16">
@@ -25,19 +26,29 @@
                            TextColor="Black"
                            FontSize="12"
                            Opacity="0.8" />
-                    <Label Text="Share your thoughts"
-                           TextColor="Black"
-                           FontSize="12"
-                           Opacity="0.6" />
+                   
+                    <Button Text="SHARE YOUR THOUGHTS" 
+                            HorizontalOptions="Start"
+                            TextColor="#018901"
+                            BackgroundColor="#FFFFFF"/>
                 </StackLayout>
             </Frame>
+
+            
+           
             <!--
-            <ImageButton Source="editFAB.png" 
+            <views:FloatingActionButton Image="plus.png"
+                    ButtonColor="Green" WidthRequest="56"
+                        HeightRequest="56" HorizontalOptions="CenterAndExpand"
+                                        VerticalOptions="CenterAndExpand"/>
+            <ImageButton Source="fab.png" 
             BackgroundColor="Transparent"
             AbsoluteLayout.LayoutFlags="PositionProportional"  
             AbsoluteLayout.LayoutBounds=".95,.95,80,80" 
-            Clicked="Handle_Clicked" />
+             />
             -->
+              
+            
         </StackLayout>
            </AbsoluteLayout>
     </ScrollView>
