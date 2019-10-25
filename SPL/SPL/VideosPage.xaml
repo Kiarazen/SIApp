@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:SPL"
+             Title="Videos"
+             x:Class="SPL.VideosPage">
+    <TableView Intent="Menu">
+        <TableRoot>
+            <TableSection>
+                  <ImageCell
+                      ImageSource="building.png"
+                      Text="Building Better Connections" TextColor="Black"
+                          Detail="Growing trust in the government"
+                          Command="{Binding NavigateCommand}"
+                          CommandParameter="{x:Type local:PlayWebVideoPage}" />
+                <ImageCell
+                    ImageSource="alcohol.png"
+                    Text="Paths to Recovery" TextColor="Black"
+                          Detail="Overcoming alcohol abuse and violence"
+                          Command="{Binding NavigateCommand}"
+                          CommandParameter="{x:Type local:PlayWebVideoPage}" />
+                <ImageCell
+                    ImageSource="youth.png"
+                    Text="A Second Chance" TextColor="Black"
+                          Detail="Proving youth training and work"
+                          Command="{Binding NavigateCommand}"
+                          CommandParameter="{x:Type local:PlayWebVideoPage}" />
+                <ImageCell
+                    ImageSource="fight.png"
+                    Text="The Fight For Justice" TextColor="Black"
+                          Detail="Working with Community Chiefs and Elders"
+                          Command="{Binding NavigateCommand}"
+                          CommandParameter="{x:Type local:PlayWebVideoPage}" />
+                
+
+       
+            </TableSection>
+        </TableRoot>
+    </TableView>
+</ContentPage>

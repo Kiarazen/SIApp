@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Seif Ples Process"
+             x:Class="SPL.Views.SeifPles_Access">
+
+      <ScrollView>
+       <AbsoluteLayout>
+        <StackLayout Spacing="20" 
+                     Padding="10"
+                     >
+
+      
+            <Frame Padding="16" Margin="0,30,0,0" BorderColor="#dddddd">
+                <StackLayout Spacing="16">
+                    <Image Source="path.png" 
+                           Margin="-16,-16,-16,0" 
+                           Aspect="AspectFill" />
+                    <Label Text="Pathways to Seif Ples" 
+                           FontSize="24" 
+                           TextColor="Black"/>
+                    <Label Text="Are you or someone you know a survivor of violence? Let us show you the ways Seif Ples can help."
+                           TextColor="Black"
+                           FontSize="12"
+                           Opacity="0.8" />
+                   
+                    <Button Text="SHOW ME HOW" 
+                            HorizontalOptions="Start"
+                            TextColor="#018901"
+                            BackgroundColor="#FFFFFF"
+                            Clicked="ToDanger"/>
+                </StackLayout>
+            </Frame>
+
+            
+
+              
+            
+        </StackLayout>
+           </AbsoluteLayout>
+    </ScrollView>
+
+
+
+
+  
+</ContentPage>

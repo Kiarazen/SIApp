@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="SafeNet For Women"
+             x:Class="SPL.Views.SafeNetWomen">
+   <ScrollView>
+        <StackLayout Padding="5,10">
+
+            <Label FontAttributes="Bold"
+                   TextColor="Black"
+                   Text="What is domestic vilence" />
+              <Label x:Name="_lineHeightLabel" 
+                   Text="Domestic Violence is violence that happens in the home. It is violence between a husband and wife, or between other
+                     people in the family. It is never okay for a man to use violence against a woman."
+                   LineBreakMode="WordWrap"
+                    />
+            <Label TextDecorations="Underline" Text="Not because she has an affair" />
+            <Label TextDecorations="Underline" Text="Not because she says no to sex with her husband" />
+            <Label TextDecorations="Underline" Text="Not because he is drunk" />
+            <Label TextDecorations="Underline" Text="Not because he paid bride price" />
+          <Label FontAttributes="Bold"
+                   TextColor="Black"
+                   Text="Know the Facts" />
+              <Label  
+                   Text="Domestic Violence is a big problem in the Solomon Islands. The Government's research says that 2 out of 3
+                    women are living with domestic violence."
+                   LineBreakMode="WordWrap"
+                   />
+             <Label FontAttributes="Bold"
+                   TextColor="Black"
+                   Text="Kinds of Violence" />
+             <Label 
+                   Text="Physical Violence"  />
+             <Label 
+                   Text="Economic Violence"  />
+             <Label 
+                   Text="Sexual Violence"  />
+             <Label  
+                   Text="Emotional Violence"  />
+
+
+         </StackLayout>
+    </ScrollView>
+</ContentPage>

@@ -11,12 +11,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="3.6.0.264807" />  
+    <PackageReference Include="Xamarin.Forms" Version="4.3.0.908675" />  
     <PackageReference Include="Xamarin.Essentials" Version="1.0.1" />
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
     <PackageReference Include="XamarinForms.CardView" Version="1.1.1.5" />
     <PackageReference Include="XamarinForms.CardView.NetStandard" Version="1.1.1.5" />
-    <PackageReference Include="SuaveControls.FloatingActionButton" Version="2018.1.5" />
   </ItemGroup>
 
   <ItemGroup>
@@ -24,10 +23,59 @@
     <Compile Remove="MyPage.xaml.cs" />
     <Compile Remove="Controls\MyPage.xaml.cs" />
     <Compile Remove="Controls\MyView.xaml.cs" />
+    <Compile Remove="SeifPlesDirectory\MyPage.xaml.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Update="Views\SocProtPage.xaml.cs">
       <DependentUpon>SocProtPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="SeifPlesDirectory\Shock.xaml.cs">
+      <DependentUpon>Shock.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="SeifPlesDirectory\Counselling.xaml.cs">
+      <DependentUpon>Counselling.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="SeifPlesDirectory\Lawyer.xaml.cs">
+      <DependentUpon>Lawyer.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="SeifPlesDirectory\Stay.xaml.cs">
+      <DependentUpon>Stay.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="VictimResponse.xaml.cs">
+      <DependentUpon>VictimResponse.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="SeifPlesDirectory\Danger.xaml.cs">
+      <DependentUpon>Danger.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Directory\Crisis.xaml.cs">
+      <DependentUpon>Crisis.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="FamilySupport.xaml.cs">
+      <DependentUpon>FamilySupport.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Adoption.xaml.cs">
+      <DependentUpon>Adoption.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="School.xaml.cs">
+      <DependentUpon>School.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Directory\Families.xaml.cs">
+      <DependentUpon>Families.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Directory\HealthMenu.xaml.cs">
+      <DependentUpon>HealthMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Directory\Mental.xaml.cs">
+      <DependentUpon>Mental.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Directory\Womens.xaml.cs">
+      <DependentUpon>Womens.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Directory\Childrens.xaml.cs">
+      <DependentUpon>Childrens.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Directory\Hospitals.xaml.cs">
+      <DependentUpon>Hospitals.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
@@ -57,5 +105,10 @@
     <EmbeddedResource Update="Views\TitlePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="FormsVideoLibrary\" />
+    <Folder Include="SeifPlesDirectory\" />
+    <Folder Include="Directory\" />
   </ItemGroup>
 </Project>

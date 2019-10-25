@@ -11,5 +11,10 @@ namespace SPL.Views
         {
             InitializeComponent();
         }
+
+        async void ToPage3(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new NavigationPage(new FeedbackP3()));
+        }
     }
 }

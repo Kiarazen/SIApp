@@ -5,9 +5,9 @@ using Xamarin.Forms;
 
 namespace SPL
 {
-    public partial class SafeNet_Access : ContentPage
+    public partial class VictimResponse : ContentPage
     {
-        public SafeNet_Access()
+        public VictimResponse()
         {
             InitializeComponent();
         }

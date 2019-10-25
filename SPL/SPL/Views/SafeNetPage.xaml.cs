@@ -34,7 +34,7 @@ namespace SPL.Views
 
         async void ToAccess_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new NavigationPage(new SafeNet_Access()));
+            await Navigation.PushModalAsync(new NavigationPage(new SeifPles_Access()));
         }
     }
 }

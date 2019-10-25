@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Child Protection"
+             x:Class="SPL.ChildProtect">
+
+
+     <ScrollView>
+        <StackLayout Padding="5,10">
+
+            <Label FontAttributes="Bold"
+                   TextColor="Black"
+                   Text="What is child abuse" />
+              <Label x:Name="_lineHeightLabel" 
+                   Text="Any act of failure to act that violates the rights of the child that endangers his or her optimum health, survival and development."
+                   LineBreakMode="WordWrap"
+                    />
+              <Label 
+                   Text="Why do we need to prevent and stop child abuse?"
+                   
+                    />
+            <Label TextDecorations="Underline" Text="Children are precious- they are a gift from God" />
+            <Label TextDecorations="Underline" Text="Children are our future" />
+            <Label TextDecorations="Underline" Text="Children deserve to be treated with respect" />
+            <Label TextDecorations="Underline" Text="Children have the right to enjoy a childhood" />
+          <Label FontAttributes="Bold"
+                   TextColor="Black"
+                   Text="Culture" />
+              <Label  
+                   Text="We must not use culture as a reason to avoid confronting this very important issue."
+                   LineBreakMode="WordWrap"
+                   />
+             <Label FontAttributes="Bold"
+                   TextColor="Black"
+                   Text="Kinds of Violence" />
+             <Label 
+                   Text="Physical Violence"  />
+            <Label  
+                   Text="Neglect"  />
+            <Label  
+                   Text="Exploitation"  />
+             <Label 
+                   Text="Economic Violence"  />
+             <Label 
+                   Text="Sexual Violence"  />
+             <Label  
+                   Text="Emotional Violence"  />
+
+
+         </StackLayout>
+    </ScrollView>
+
+</ContentPage>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              Title="Seif Ples Process"
+             x:Class="SPL.SeifPlesDirectory.Lawyer">
+  
+            <StackLayout x:Name="stacklayout">
+    <Label FontAttributes="Bold"
+                   TextColor="Black"
+                    Margin="0,30,0,60"
+                  HorizontalTextAlignment="Center"
+                   Text="ASK: Do you need to speak to a lawyer? (restraining order, child custody)" />
+    <Grid RowSpacing="0" ColumnSpacing="0" HorizontalOptions="Center" Padding="0,0,0,0" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="250"></RowDefinition>
+                    <RowDefinition Height="250"></RowDefinition>
+                     <RowDefinition Height="250"></RowDefinition>
+                    <RowDefinition Height="250"></RowDefinition>
+                    
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    
+                </Grid.ColumnDefinitions>
+           </Grid>
+
+
+
+         <Button Grid.Row="0" Grid.Column="0" Text="YES" Margin="16"    
+                    VerticalOptions="Center"
+                    HorizontalOptions="CenterAndExpand"
+                    TextColor="#FFFFFF"
+                    WidthRequest="250"
+                    HeightRequest="100"
+                    FontSize="30"
+                    BackgroundColor="#004BA0"
+                    Clicked="RemoveAndChange"
+                    />
+ 
+    
+             <Button x:Name="button" Grid.Row="1" Grid.Column="0" Text="NO" 
+                     HorizontalOptions="CenterAndExpand"
+                     VerticalOptions="Center"
+                     TextColor="#004BA0"
+                     BackgroundColor="#DDDDDD"
+                     WidthRequest="250"
+                    HeightRequest="100"
+                    FontSize="30"
+                     Clicked="NextPage"
+                     />
+
+            <StackLayout x:Name="text" Grid.Row="2" Grid.Column="0"
+                         HorizontalOptions="Center"
+                         Margin="10,45,10,0"
+                         >
+
+            </StackLayout>
+             <StackLayout x:Name="moreText" Grid.Row="3" Grid.Column="0"
+                         HorizontalOptions="Center"
+                         Margin="10,45,10,0"
+                         >
+
+            </StackLayout>
+         
+
+        </StackLayout>
+</ContentPage>

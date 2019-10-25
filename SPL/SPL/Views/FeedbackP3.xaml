@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SPL.Views.FeedbackP3">
+    <NavigationPage.TitleView>
+        <StackLayout Orientation="Horizontal">
+           
+             <Label Text="Feedback"
+                   HorizontalOptions="StartAndExpand"
+                   VerticalOptions="Start"
+                   
+                   TextColor="White"
+                    />
+
+            <Label Text="3/3"
+                   HorizontalOptions="EndAndExpand"
+                   VerticalOptions="End"
+                   Margin="0,0,20,0"
+                   TextColor="White"
+                    />
+          
+        </StackLayout>
+    </NavigationPage.TitleView>
+
+        <StackLayout Margin="40">
+       <Grid RowSpacing="0" ColumnSpacing="16" HorizontalOptions="Center" Padding="0,0,0,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="200"></RowDefinition>
+                    <RowDefinition Height="300"></RowDefinition>
+                    <RowDefinition Height="200"></RowDefinition>
+                    <RowDefinition Height="500"></RowDefinition>
+                    <RowDefinition Height="100"></RowDefinition>
+
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    
+                </Grid.ColumnDefinitions>
+           </Grid>
+
+       
+                    
+         <Label Margin="20" Grid.Row="0" Grid.Column="0" TextColor="#004BA0" HorizontalTextAlignment="Center" FontSize="23" Text="Give us a rating"/>
+
+             <Image Source="empty.png">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                            Tapped="Rate"
+                            NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+                   </Image>
+
+
+        <Label Margin="20" Grid.Row="2" Grid.Column="0" TextColor="#004BA0" HorizontalTextAlignment="Center" FontSize="23" Text="Leave a comment"/>
+
+            <Editor Grid.Row="3" Grid.Column="0" Placeholder="Start typing here" PlaceholderColor="#DDDDDD">
+                <Editor.Keyboard>
+                    <Keyboard x:FactoryMethod="Create">
+                        <x:Arguments>
+                            <KeyboardFlags>Suggestions,CapitalizeCharacter</KeyboardFlags>
+                        </x:Arguments>
+                    </Keyboard>
+                </Editor.Keyboard>
+            </Editor>
+
+            <Image Margin= "45" Source="done.png" HeightRequest="100" WidthRequest="100" HorizontalOptions="CenterAndExpand">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                            Tapped="BackToHome"
+                            NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+                   </Image>
+            <!--
+
+        <ImageButton Margin="40" Grid.Row="4" Grid.Column="0" Source="fab.png"
+                       BackgroundColor="Transparent" HorizontalOptions="End"
+                     Clicked="BackToHome"
+                     />
+
+            -->
+     </StackLayout>
+</ContentPage>

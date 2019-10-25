@@ -16,5 +16,9 @@ namespace SPL.Views
         {
             InitializeComponent();
         }
+        async void ToFeedback_P1(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new NavigationPage(new FeedbackP1()));
+        }
     }
 }

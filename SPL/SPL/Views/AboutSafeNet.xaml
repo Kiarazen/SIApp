@@ -4,13 +4,14 @@
              xmlns:local="clr-namespace:SPL"
              x:Class="SPL.Views.AboutSafeNet"
              Title="About"
-             Visual="Material">
+             Visual="Material"
+             BackgroundColor="White">
     <ScrollView>
         <StackLayout Spacing="20" 
                      Padding="10"
                      BackgroundColor="White">
       
-            <Frame Padding="16" Margin="0,30,0,0">
+            <Frame Padding="16" Margin="0,30,0,0" BorderColor="#dddddd">
                 <StackLayout Spacing="16">
                     <Image Source="safeWomen.png" 
                            Margin="-16,-16,-16,0" 
@@ -22,7 +23,8 @@
                            TextColor="Black"
                            FontSize="14"
                            Opacity="0.8" />
-                    <Button Text="EXPLORE" 
+                    <Button Text="EXPLORE"
+                            Clicked="ToWomen"
                             HorizontalOptions="Start"
                             TextColor="#018901"
                             BackgroundColor="#FFFFFF"/>
@@ -30,7 +32,7 @@
             </Frame>
 
             
-            <Frame Padding="16" Margin="0,30,0,0">
+            <Frame Padding="16" Margin="0,30,0,0" BorderColor="#dddddd">
                 <StackLayout Spacing="16">
                     <Image Source="safeMen.png" 
                            Margin="-16,-16,-16,0" 
@@ -44,6 +46,7 @@
                            Opacity="0.8" />
                     <Button Text="EXPLORE" 
                             HorizontalOptions="Start"
+                            
                             TextColor="#018901"
                             BackgroundColor="#FFFFFF"/>
                 </StackLayout>

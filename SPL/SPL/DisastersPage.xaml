@@ -3,7 +3,44 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="SPL.DisastersPage">
-    <ContentPage.Content>
-        
-    </ContentPage.Content>
+     
+    <ScrollView>
+        <StackLayout Padding="5,10">
+
+            <Label FontAttributes="Bold"
+                   TextColor="Black"
+                   Text="National Emergency Operations Centre" />
+              
+          <Label FontAttributes="Bold"
+                   TextColor="Black"
+                   Text="Emergency Toll Free Telephone" />
+              <Label  
+                   Text="955"
+                   LineBreakMode="WordWrap"
+                   />
+             <Label FontAttributes="Bold"
+                   TextColor="Black"
+                   Text="NEOC e-mail" />
+             <Label 
+                   Text="neoc@ndmo.gvo.sb"  />
+               <Label FontAttributes="Bold"
+                   TextColor="Black"
+                   Text="NDMO telephone" />
+            <Label  
+                   Text="27936"  />
+               <Label FontAttributes="Bold"
+                   TextColor="Black"
+                   Text="Director's office- telephone" />
+             <Label 
+                   Text="27836"  />
+             <Label FontAttributes="Bold"
+                   TextColor="Black"
+                   Text="Possible threats to Solomon Islands:" />
+               <Label TextDecorations="Underline" Text="Floods" />
+            <Label TextDecorations="Underline" Text="Earthquakes" />
+            <Label TextDecorations="Underline" Text="Fires" />
+             <Label TextDecorations="Underline" Text="Agriculture Pests and Diseases" />
+
+         </StackLayout>
+    </ScrollView>
 </ContentPage>

@@ -16,5 +16,10 @@ namespace SPL.Views
         {
             InitializeComponent();
         }
+
+        async void ToVideos_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new NavigationPage(new VideosPage()));
+        }
     }
 }

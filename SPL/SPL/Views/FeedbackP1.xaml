@@ -2,56 +2,82 @@
 <ContentPage
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    
+    Title="Feedback"
     x:Class="SPL.Views.FeedbackP1">
-    <ContentPage.Content>
+
+    <NavigationPage.TitleView>
+        <StackLayout Orientation="Horizontal">
+           
+             <Label Text="Feedback"
+                   HorizontalOptions="StartAndExpand"
+                   VerticalOptions="Start"
+                   
+                   TextColor="White"
+                    />
+
+            <Label Text="1/3"
+                   HorizontalOptions="EndAndExpand"
+                   VerticalOptions="End"
+                   Margin="0,0,20,0"
+                   TextColor="White"
+                    />
+          
+        </StackLayout>
+    </NavigationPage.TitleView>
+
         <StackLayout Margin="40">
        <Grid RowSpacing="0" ColumnSpacing="16" HorizontalOptions="Center" Padding="0,0,0,0">
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="4*"></RowDefinition>
-                    <RowDefinition Height="2*"></RowDefinition>
+                    <RowDefinition Height="200"></RowDefinition>
+                    <RowDefinition Height="100"></RowDefinition>
+                    
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"></ColumnDefinition>
                     
                 </Grid.ColumnDefinitions>
            </Grid>
+
         <Image Source="love.png" Aspect="AspectFill" Grid.Row="0" Grid.Column="0"/>
                     
-         <Label Margin="40" Grid.Row="1" Grid.Column="0" TextColor="#004BA0" HorizontalTextAlignment="Center" FontSize="30" Text="Are you liking this app?"/>
+         <Label Margin="20" Grid.Row="1" Grid.Column="0" TextColor="#004BA0" HorizontalTextAlignment="Center" FontSize="23" Text="Are you liking this app?"/>
 
-    
             <Grid 
-                  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                  VerticalOptions="FillAndExpand" HorizontalOptions="CenterAndExpand">
 <Grid.RowDefinitions>
 <RowDefinition Height="Auto"></RowDefinition>
 </Grid.RowDefinitions>
 <Grid.ColumnDefinitions>
-<ColumnDefinition Width=""></ColumnDefinition>
-<ColumnDefinition Width=""></ColumnDefinition>
+<ColumnDefinition Width="Auto"></ColumnDefinition>
+<ColumnDefinition Width="Auto"></ColumnDefinition>
 </Grid.ColumnDefinitions>
        
 
-            <Button Grid.Row="0" Grid.Column="0" Text="NO" 
-                            HorizontalOptions="Center"
+            <Button Grid.Row="0" Grid.Column="0" Text="NO"
+                   
+                            
                     VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="End"
                             TextColor="#004BA0"
-                            BackgroundColor="#FFFFFF"
+                            BackgroundColor="#DDDDDD"
                     WidthRequest="110"
-                    
+                    Clicked="ToPage2"
+
                  />
              <Button Grid.Row="0" Grid.Column="1" Text="YES" 
-                            HorizontalOptions="Center"
+                       HorizontalOptions="Start"
                     VerticalOptions="CenterAndExpand"
                             TextColor="#FFFFFF"
                             BackgroundColor="#004BA0"
                      WidthRequest="110"
+                     Clicked="ToPage2"
                      />
            
+             
+        </Grid>   
+
+     </StackLayout>
 
 
- </Grid>
-            </StackLayout>
-      
-    </ContentPage.Content>
+     
 </ContentPage>

@@ -2,12 +2,48 @@
 <ContentPage
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Royal Solomon Islands Police Force"
     x:Class="SPL.RSPIF_Page">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+
+    <ScrollView>
+        <StackLayout Padding="5,10">
+
+            <Label FontAttributes="Bold"
+                   TextColor="Black"
+                   Text="Location" />
+              <Label x:Name="_lineHeightLabel" 
+                   Text="Know the nearest police station to your home"
+                   LineBreakMode="WordWrap"
+                    />
+
+          <Label FontAttributes="Bold"
+                   TextColor="Black"
+                   Text="Emergency Call" />
+              <Label  
+                   Text="999"
+                   LineBreakMode="WordWrap"
+                   />
+             <Label FontAttributes="Bold"
+                   TextColor="Black"
+                   Text="Central Station" />
+             <Label 
+                   Text="22266"  />
+               <Label FontAttributes="Bold"
+                   TextColor="Black"
+                   Text="Quick Response Unit" />
+            <Label  
+                   Text="23666"  />
+               <Label FontAttributes="Bold"
+                   TextColor="Black"
+                   Text="Rove HQ Family Violence Unit" />
+             <Label 
+                   Text="28275"  />
+               <Label TextDecorations="Underline" Text="Offer saftey and protection" />
+            <Label TextDecorations="Underline" Text="Maintain community saftey" />
+            <Label TextDecorations="Underline" Text="Uphold Solomon Islands Law (Family Protection Act 2014)" />
+             <Label TextDecorations="Underline" Text="Refer clients to appropriate service providers" />
+
+         </StackLayout>
+    </ScrollView>
+    
 </ContentPage>

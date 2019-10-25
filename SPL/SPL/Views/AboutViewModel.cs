@@ -15,5 +15,6 @@ namespace SPL.ViewModels
         }
 
         public ICommand OpenWebCommand { get; }
+
     }
 }

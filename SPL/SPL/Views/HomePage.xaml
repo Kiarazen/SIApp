@@ -2,10 +2,12 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SPL.Views.HomePage"
-             Title="Home" 
+             xmlns:local="clr-namespace:SPL"
+             Title="Home"
+             
              >
     <ContentPage.Content>
-        <StackLayout VerticalOptions="Center">
+        <StackLayout VerticalOptions="Center" >
 
 
 
@@ -27,7 +29,7 @@
                     </Image.GestureRecognizers>
                 </Image>
 
-                <Button Grid.Row="1" Grid.Column="0" Text="Social Protections"
+                <Button Grid.Row="1" Grid.Column="0" Text="Social Protections" FontSize="10"
                         BackgroundColor="#1c661c"
                         Clicked="ToSocialProtections_Clicked"
                         Opacity="65"
@@ -41,7 +43,7 @@
                     </Image.GestureRecognizers>
                 </Image>
 
-                <Button Grid.Row="1" Grid.Column="1" Text="Learn More"
+                <Button Grid.Row="1" Grid.Column="1" Text="Learn More" FontSize="10"
                         Clicked="ToLearnMore_Clicked"
                         BackgroundColor="#e5d409"
                         Opacity="65"
@@ -68,7 +70,7 @@
                     </Image.GestureRecognizers>
                 </Image>
 
-                <Button Grid.Row="1" Grid.Column="0" Text="Have Your Say"
+                <Button Grid.Row="1" Grid.Column="0" Text="Have Your Say" FontSize="10"
                         BackgroundColor="#aa1a1a"
                         Clicked="ToHaveYourSay_Clicked"
                         Opacity="0.9"
@@ -83,15 +85,16 @@
 
 
 
-                <Button Grid.Row="1" Grid.Column="1" Text="Help Me"
+                <Button Grid.Row="1" Grid.Column="1" Text="Direct Me" FontSize="10"
                         BackgroundColor="#759fe3"
                         Clicked="ToHelpMe_Clicked"
                         Opacity="0.9"
-                        TextColor="White" />
+                        TextColor="White"
+                        />
             </Grid>
 
 
-
+    
 
         </StackLayout>
     </ContentPage.Content>

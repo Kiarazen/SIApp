@@ -1,15 +1,162 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             mc:Ignorable="d"
+             Title="Direct Me"
              x:Class="SPL.Views.HelpMePage">
-    <ContentPage.Content>
+    
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+           <Label FontAttributes="Bold"
+                   TextColor="Black"
+                  FontSize="16"
+                    Margin="20,30,0,10"
+           HorizontalTextAlignment="Start"
+                   Text="What information would you like?" />
+             <Label 
+                   TextColor="Gray"
+                    Margin="20,5,0,0"
+           HorizontalTextAlignment="Start"
+                   Text="Categories" />
+
+            <Grid Margin="20,25,20,20">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.35*" />
+            <ColumnDefinition Width="2*" />
+         
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <CheckBox Grid.Column="0" Grid.Row="0" Color="Green"
+                  
+                  VerticalOptions="Center"
+                  x:Name="checkbox1"/>
+        <Label Text="Crisis &amp; Victims"
+               VerticalOptions="Center" Grid.Column="1" Grid.Row="0" />
+
+       
+        <CheckBox Grid.Column="0" Grid.Row="1"
+                  Color="Green"
+                 x:Name="checkbox2"
+                  VerticalOptions="Center" />
+         <Label Grid.Column="1" Grid.Row="1"
+               Text="Children &amp; Families"
+               VerticalOptions="Center" />
+       
+        <CheckBox Grid.Row="2"
+                  Grid.Column="0"
+                  Color="Green"
+                  x:Name="checkbox3"
+                  VerticalOptions="Center" />
+         <Label Grid.Row="2" Grid.Column="1"
+               Text="Health"
+               VerticalOptions="Center" />
+
+      
+        <CheckBox Grid.Row="3"
+                  Grid.Column="0"
+                  Color="Green"
+                 x:Name="checkbox4"
+                  VerticalOptions="Center" />
+          <Label Grid.Row="3"
+               Grid.Column="1"
+               Text="Legal"
+               VerticalOptions="Center" />
+
+          <CheckBox Grid.Row="4"
+                  Grid.Column="0"
+                  Color="Green"
+                 x:Name="checkbox5"
+                  VerticalOptions="Center" />
+          <Label Grid.Row="4"
+               Grid.Column="1"
+               Text="Disabilities"
+               VerticalOptions="Center" />
+
+          <CheckBox Grid.Row="5"
+                  Grid.Column="0"
+                  Color="Green"
+                  x:Name="checkbox6"
+                  VerticalOptions="Center" />
+          <Label Grid.Row="5"
+               Grid.Column="1"
+               Text="SafeNet"
+               VerticalOptions="Center" />
+
+        <CheckBox Grid.Row="6"
+                  Grid.Column="0"
+                  Color="Green"
+                  x:Name="checkbox7"
+                  VerticalOptions="Center" />
+          <Label Grid.Row="6"
+               Grid.Column="1"
+               Text="Education"
+               VerticalOptions="Center" />
+
+        <CheckBox Grid.Row="7"
+                  Grid.Column="0"
+                  Color="Green"
+                  x:Name="checkbox8"
+                  VerticalOptions="Center" />
+          <Label Grid.Row="7"
+               Grid.Column="1"
+               Text="Disasters"
+               VerticalOptions="Center" />
+
+        <CheckBox Grid.Row="8"
+                  Grid.Column="0"
+                  Color="Green"
+                  x:Name="checkbox9"
+                  VerticalOptions="Center" />
+          <Label Grid.Row="8"
+               Grid.Column="1"
+               Text="Awareness Material"
+               VerticalOptions="Center" />
+
+        
+    </Grid>
+
+            <Grid 
+                  VerticalOptions="FillAndExpand" >
+<Grid.RowDefinitions>
+<RowDefinition Height="Auto"></RowDefinition>
+</Grid.RowDefinitions>
+<Grid.ColumnDefinitions>
+<ColumnDefinition Width="3*"></ColumnDefinition>
+<ColumnDefinition Width="3*"></ColumnDefinition>
+</Grid.ColumnDefinitions>
+       
+
+            <Button Grid.Row="0" Grid.Column="0" Text="&lt; Back"      
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="Start"
+                            TextColor="#018901"
+                            BackgroundColor="Transparent"
+                    WidthRequest="110"
+                   Clicked="GoBack"
+
+                 />
+
+             <Button Grid.Row="0" Grid.Column="1" Text="Next &gt;" 
+                       HorizontalOptions="End"
+                    VerticalOptions="CenterAndExpand"
+                            TextColor="#018901"
+                            BackgroundColor="Transparent"
+                     WidthRequest="110"
+                     Clicked="GoNext"
+                   
+                     />
+           
+             
+        </Grid>  
         </StackLayout>
-    </ContentPage.Content>
+    
 </ContentPage>

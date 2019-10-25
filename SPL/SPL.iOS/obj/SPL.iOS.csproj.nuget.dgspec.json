@@ -46,7 +46,7 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[3.6.0.264807, )"
+              "version": "[4.3.0.908675, )"
             }
           }
         }
@@ -108,17 +108,13 @@
               "target": "Package",
               "version": "[11.0.2, )"
             },
-            "SuaveControls.FloatingActionButton": {
-              "target": "Package",
-              "version": "[2018.1.5, )"
-            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.0.1, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[3.6.0.264807, )"
+              "version": "[4.3.0.908675, )"
             },
             "XamarinForms.CardView": {
               "target": "Package",
@@ -130,10 +126,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }

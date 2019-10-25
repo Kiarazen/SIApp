@@ -5,7 +5,7 @@
              Title="Social Protections">
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout Margin="0,55,0,0">
+            <StackLayout Margin="0,40,0,0">
                 <Grid RowSpacing="0" ColumnSpacing="16" HorizontalOptions="Center" Padding="0,0,0,0">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="100"></RowDefinition>
@@ -23,7 +23,7 @@
                             <TapGestureRecognizer Tapped="ToSocialWelfare_Clicked" NumberOfTapsRequired="1" />
                         </Image.GestureRecognizers>
                     </Image>
-                    <Button Grid.Row="1" Grid.Column="0" Text="Social Welfare"
+                    <Button Grid.Row="1" Grid.Column="0" Text="Social Welfare" FontSize="11"
                         BackgroundColor="Black"
                         Clicked="ToSocialWelfare_Clicked"
                         Opacity="0.9"
@@ -35,7 +35,7 @@
                         </Image.GestureRecognizers>
                     </Image>
 
-                    <Button Grid.Row="1" Grid.Column="1" Text="SafeNet and Seif Ples"
+                    <Button Grid.Row="1" Grid.Column="1" Text="SafeNet and Seif Ples" FontSize="11"
                         Clicked="ToSafeNet_Clicked"
                         BackgroundColor="Black"
                         Opacity="0.9"
@@ -59,7 +59,7 @@
                         </Image.GestureRecognizers>
                     </Image>
 
-                    <Button Grid.Row="1" Grid.Column="0" Text="Disabilities"
+                    <Button Grid.Row="1" Grid.Column="0" Text="Disabilities" FontSize="11"
                         BackgroundColor="Black"
                         Clicked="ToDisabilities_Clicked"
                         Opacity="0.9"
@@ -74,7 +74,7 @@
 
 
 
-                    <Button Grid.Row="1" Grid.Column="1" Text="Disasters"
+                    <Button Grid.Row="1" Grid.Column="1" Text="Disasters" FontSize="11"
                         BackgroundColor="Black"
                         Clicked="ToDisasters_Clicked"
                         Opacity="0.9"
@@ -98,7 +98,7 @@
                         </Image.GestureRecognizers>
                     </Image>
 
-                    <Button Grid.Row="1" Grid.Column="0" Text="Health"
+                    <Button Grid.Row="1" Grid.Column="0" Text="Health" FontSize="11"
                         BackgroundColor="Black"
                         Clicked="ToHealthcare_Clicked"
                         Opacity="0.9"
@@ -113,7 +113,7 @@
 
 
 
-                    <Button Grid.Row="1" Grid.Column="1" Text="Education"
+                    <Button Grid.Row="1" Grid.Column="1" Text="Education" FontSize="11"
                         BackgroundColor="Black"
                         Clicked="ToEducation_Clicked"
                         Opacity="0.9"

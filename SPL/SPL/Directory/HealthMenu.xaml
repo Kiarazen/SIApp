@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Direct Me"
+             x:Class="SPL.Directory.HealthMenu">
+    <StackLayout>
+           <Label FontAttributes="Bold"
+                   TextColor="Black"
+                  FontSize="16"
+                    Margin="20,30,0,10"
+           HorizontalTextAlignment="Start"
+                   Text="Health Related Information" />
+             <Label 
+                   TextColor="Gray"
+                    Margin="20,5,0,0"
+           HorizontalTextAlignment="Start"
+                   Text="Categories" />
+
+            <Grid Margin="20,25,20,20">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.35*" />
+            <ColumnDefinition Width="2*" />
+         
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            
+        </Grid.RowDefinitions>
+
+        <CheckBox Grid.Column="0" Grid.Row="0" Color="Green"
+                  
+                  VerticalOptions="Center"
+                  x:Name="checkbox1"/>
+        <Label Text="Mental Health"
+               VerticalOptions="Center" Grid.Column="1" Grid.Row="0" />
+
+       
+        <CheckBox Grid.Column="0" Grid.Row="1"
+                  Color="Green"
+                 x:Name="checkbox2"
+                  VerticalOptions="Center" />
+         <Label Grid.Column="1" Grid.Row="1"
+               Text="Women's Health"
+               VerticalOptions="Center" />
+       
+        <CheckBox Grid.Row="2"
+                  Grid.Column="0"
+                  Color="Green"
+                  x:Name="checkbox3"
+                  VerticalOptions="Center" />
+         <Label Grid.Row="2" Grid.Column="1"
+               Text="Children's Health"
+               VerticalOptions="Center" />
+
+      
+        <CheckBox Grid.Row="3"
+                  Grid.Column="0"
+                  Color="Green"
+                 x:Name="checkbox4"
+                  VerticalOptions="Center" />
+          <Label Grid.Row="3"
+               Grid.Column="1"
+               Text="Hospitals"
+               VerticalOptions="Center" />
+
+    </Grid>
+
+            <Grid 
+                  VerticalOptions="FillAndExpand" >
+<Grid.RowDefinitions>
+<RowDefinition Height="Auto"></RowDefinition>
+</Grid.RowDefinitions>
+<Grid.ColumnDefinitions>
+<ColumnDefinition Width="3*"></ColumnDefinition>
+<ColumnDefinition Width="3*"></ColumnDefinition>
+</Grid.ColumnDefinitions>
+       
+
+            <Button Grid.Row="0" Grid.Column="0" Text="&lt; Back"      
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="Start"
+                            TextColor="#018901"
+                            BackgroundColor="Transparent"
+                    WidthRequest="110"
+                   Clicked="GoBack"
+
+                 />
+
+             <Button Grid.Row="0" Grid.Column="1" Text="Next &gt;" 
+                       HorizontalOptions="End"
+                    VerticalOptions="CenterAndExpand"
+                            TextColor="#018901"
+                            BackgroundColor="Transparent"
+                     WidthRequest="110"
+                     Clicked="GoNext"
+                   
+                     />
+           
+             
+        </Grid>  
+        </StackLayout>
+    
+</ContentPage>

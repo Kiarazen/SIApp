@@ -134,14 +134,14 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="3.6.0.264807" />
+    <PackageReference Include="Xamarin.Forms" Version="4.3.0.908675" />
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
     <PackageReference Include="Xamarin.Essentials" Version="1.0.1" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\SPL\SPL.csproj">
-      <Project>{22CCCB8F-54C8-4597-A82B-80A6637DE8EA}</Project>
+      <Project>{FCDF10A7-8E7A-468F-974D-9E41A7220978}</Project>
       <Name>SPL</Name>
     </ProjectReference>
   </ItemGroup>
