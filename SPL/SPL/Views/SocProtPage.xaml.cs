@@ -25,7 +25,7 @@ namespace SPL.Views
 
         async void ToSafeNet_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new NavigationPage(new SafeNetPage()));
+            await Navigation.PushModalAsync(new NavigationPage(new SafeNet()));
         }
 
         async void ToDisabilities_Clicked(object sender, EventArgs e)

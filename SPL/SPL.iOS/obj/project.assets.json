@@ -184,7 +184,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "11.0.2",
-          "Xamarin.Essentials": "1.0.1",
+          "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.3.0.908675",
           "XamarinForms.CardView": "1.1.1.5",
           "XamarinForms.CardView.NetStandard": "1.1.1.5"
@@ -380,7 +380,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "11.0.2",
-          "Xamarin.Essentials": "1.0.1",
+          "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.3.0.908675",
           "XamarinForms.CardView": "1.1.1.5",
           "XamarinForms.CardView.NetStandard": "1.1.1.5"
@@ -576,7 +576,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "11.0.2",
-          "Xamarin.Essentials": "1.0.1",
+          "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.3.0.908675",
           "XamarinForms.CardView": "1.1.1.5",
           "XamarinForms.CardView.NetStandard": "1.1.1.5"
@@ -772,7 +772,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "11.0.2",
-          "Xamarin.Essentials": "1.0.1",
+          "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.3.0.908675",
           "XamarinForms.CardView": "1.1.1.5",
           "XamarinForms.CardView.NetStandard": "1.1.1.5"
@@ -1245,5 +1245,20 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Essentials from 1.3.1 to 1.0.1. Reference the package directly from the project to select a different version. \n SPL.iOS -> SPL -> Xamarin.Essentials (>= 1.3.1) \n SPL.iOS -> Xamarin.Essentials (>= 1.0.1)",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
 }

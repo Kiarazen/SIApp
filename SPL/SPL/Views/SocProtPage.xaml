@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SPL.Views.SocProtPage"
              Title="Social Protections">
-    <ContentPage.Content>
+    
         <ScrollView>
             <StackLayout Margin="0,40,0,0">
                 <Grid RowSpacing="0" ColumnSpacing="16" HorizontalOptions="Center" Padding="0,0,0,0">
@@ -121,5 +121,5 @@
                 </Grid>
             </StackLayout>
         </ScrollView>
-    </ContentPage.Content>
+    
 </ContentPage>

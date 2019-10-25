@@ -105,3 +105,4 @@ C:/Users/csit321_wjt01a/source/repos/Kiarazen/SIApp/SPL/SPL/obj/Debug/netstandar
 /Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/Directory/Hospitals.xaml.g.cs
 /Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/Directory/Mental.xaml.g.cs
 /Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/Directory/Womens.xaml.g.cs
+/Users/kiarazentrich/Projects/Sol/SPL/SPL/obj/Debug/netstandard2.0/Views/SafeNet.xaml.g.cs
