@@ -8,25 +8,25 @@
         <TableRoot>
             <TableSection>
                   <ImageCell
-                      ImageSource="building.png"
+                      ImageSource="building.jpg"
                       Text="Building Better Connections" TextColor="Black"
                           Detail="Growing trust in the government"
                           Command="{Binding NavigateCommand}"
                           CommandParameter="{x:Type local:PlayWebVideoPage}" />
                 <ImageCell
-                    ImageSource="alcohol.png"
+                    ImageSource="alcohol.jpg"
                     Text="Paths to Recovery" TextColor="Black"
                           Detail="Overcoming alcohol abuse and violence"
                           Command="{Binding NavigateCommand}"
                           CommandParameter="{x:Type local:PlayWebVideoPage}" />
                 <ImageCell
-                    ImageSource="youth.png"
+                    ImageSource="youth.jpg"
                     Text="A Second Chance" TextColor="Black"
                           Detail="Proving youth training and work"
                           Command="{Binding NavigateCommand}"
                           CommandParameter="{x:Type local:PlayWebVideoPage}" />
                 <ImageCell
-                    ImageSource="fight.png"
+                    ImageSource="fight.jpg"
                     Text="The Fight For Justice" TextColor="Black"
                           Detail="Working with Community Chiefs and Elders"
                           Command="{Binding NavigateCommand}"

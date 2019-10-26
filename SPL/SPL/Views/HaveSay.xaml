@@ -17,7 +17,7 @@
       
             <Frame Padding="16" Margin="0,30,0,0" BorderColor="#dddddd">
                 <StackLayout Spacing="16">
-                    <Image Source="feedback.png" 
+                    <Image Source="feedback.jpg" 
                            Margin="-16,-16,-16,0" 
                            Aspect="AspectFill" />
                     <Label Text="Have Your Say" 

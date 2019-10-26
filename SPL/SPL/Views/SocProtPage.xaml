@@ -18,7 +18,7 @@
 
 
 
-                    <Image Source="swelfare.png" Grid.Row="0" Grid.Column="0" Aspect="AspectFill">
+                    <Image Source="swelfare.jpg" Grid.Row="0" Grid.Column="0" Aspect="AspectFill">
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="ToSocialWelfare_Clicked" NumberOfTapsRequired="1" />
                         </Image.GestureRecognizers>
@@ -29,7 +29,7 @@
                         Opacity="0.9"
                         TextColor="White" Padding="0" />
 
-                    <Image Source="safep.png" Grid.Row="0" Grid.Column="1" Aspect="AspectFill">
+                    <Image Source="safep.jpg" Grid.Row="0" Grid.Column="1" Aspect="AspectFill">
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="ToSafeNet_Clicked" NumberOfTapsRequired="1" />
                         </Image.GestureRecognizers>
@@ -53,7 +53,7 @@
                     </Grid.ColumnDefinitions>
 
 
-                    <Image Source="disabled.png" Grid.Row="0" Grid.Column="0" Aspect="AspectFill">
+                    <Image Source="disabled.jpg" Grid.Row="0" Grid.Column="0" Aspect="AspectFill">
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="ToDisabilities_Clicked" NumberOfTapsRequired="1" />
                         </Image.GestureRecognizers>
@@ -66,7 +66,7 @@
                         TextColor="White" Padding="0" />
 
 
-                    <Image Source="SIdisaster.png" Grid.Row="0" Grid.Column="1" Aspect="AspectFill">
+                    <Image Source="SIdisaster.jpg" Grid.Row="0" Grid.Column="1" Aspect="AspectFill">
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="ToDisasters_Clicked" NumberOfTapsRequired="1" />
                         </Image.GestureRecognizers>
@@ -92,7 +92,7 @@
                     </Grid.ColumnDefinitions>
 
 
-                    <Image Source="healthcare.png" Grid.Row="0" Grid.Column="0" Aspect="AspectFill">
+                    <Image Source="healthcare.jpg" Grid.Row="0" Grid.Column="0" Aspect="AspectFill">
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="ToHealthcare_Clicked" NumberOfTapsRequired="1" />
                         </Image.GestureRecognizers>
@@ -105,7 +105,7 @@
                         TextColor="White" Padding="0" />
 
 
-                    <Image Source="learn.png" Grid.Row="0" Grid.Column="1" Aspect="AspectFill">
+                    <Image Source="learn.jpg" Grid.Row="0" Grid.Column="1" Aspect="AspectFill">
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="ToEducation_Clicked" NumberOfTapsRequired="1" />
                         </Image.GestureRecognizers>

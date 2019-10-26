@@ -17,7 +17,7 @@
                         <ColumnDefinition Width="150"></ColumnDefinition>
                     </Grid.ColumnDefinitions>
 
-                    <Image Source="FSC.png" Grid.Row="0" Grid.Column="0" Aspect="AspectFill">
+                    <Image Source="FSC.jpg" Grid.Row="0" Grid.Column="0" Aspect="AspectFill">
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="ToFSC_Clicked" NumberOfTapsRequired="1" />
                         </Image.GestureRecognizers>
@@ -29,7 +29,7 @@
                         TextColor="White" Padding="0" />
 
                     
-                    <Image Source="CCC.png" Grid.Row="0" Grid.Column="1" Aspect="AspectFill">
+                    <Image Source="CCC.jpg" Grid.Row="0" Grid.Column="1" Aspect="AspectFill">
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="ToCCC_Clicked" NumberOfTapsRequired="1" />
                         </Image.GestureRecognizers>
@@ -53,7 +53,7 @@
                     </Grid.ColumnDefinitions>
 
 
-                    <Image Source="RSIPF.png" Grid.Row="0" Grid.Column="0" Aspect="AspectFill">
+                    <Image Source="RSIPF.jpg" Grid.Row="0" Grid.Column="0" Aspect="AspectFill">
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="ToRSPIF_Clicked" NumberOfTapsRequired="1" />
                         </Image.GestureRecognizers>
@@ -66,7 +66,7 @@
                         TextColor="White" Padding="0" />
 
 
-                    <Image Source="SIPPA.png" Grid.Row="0" Grid.Column="1" Aspect="AspectFill">
+                    <Image Source="SIPPA.jpg" Grid.Row="0" Grid.Column="1" Aspect="AspectFill">
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="ToSIPPA_Clicked" NumberOfTapsRequired="1" />
                         </Image.GestureRecognizers>
@@ -92,7 +92,7 @@
                     </Grid.ColumnDefinitions>
 
 
-                    <Image Source="NRH.png" Grid.Row="0" Grid.Column="0" Aspect="AspectFill">
+                    <Image Source="NRH.jpg" Grid.Row="0" Grid.Column="0" Aspect="AspectFill">
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="ToNRH_Clicked" NumberOfTapsRequired="1" />
                         </Image.GestureRecognizers>
@@ -105,7 +105,7 @@
                         TextColor="White" Padding="0" />
 
 
-                    <Image Source="others.png" Grid.Row="0" Grid.Column="1" Aspect="AspectFill">
+                    <Image Source="others.jpg" Grid.Row="0" Grid.Column="1" Aspect="AspectFill">
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="ToOthers_Clicked" NumberOfTapsRequired="1" />
                         </Image.GestureRecognizers>

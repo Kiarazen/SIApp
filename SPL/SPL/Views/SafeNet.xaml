@@ -18,7 +18,7 @@
 
 
 
-                    <Image Source="About.png" Grid.Row="0" Grid.Column="0" Aspect="AspectFill">
+                    <Image Source="About.jpg" Grid.Row="0" Grid.Column="0" Aspect="AspectFill">
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="ToSafeAbout_Clicked" NumberOfTapsRequired="1" />
                         </Image.GestureRecognizers>
@@ -29,7 +29,7 @@
                         Opacity="0.9"
                         TextColor="White" Padding="0" />
 
-                    <Image Source="members.png" Grid.Row="0" Grid.Column="1" Aspect="AspectFill">
+                    <Image Source="members.jpg" Grid.Row="0" Grid.Column="1" Aspect="AspectFill">
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="ToMembers_Clicked" NumberOfTapsRequired="1" />
                         </Image.GestureRecognizers>
@@ -53,7 +53,7 @@
                     </Grid.ColumnDefinitions>
 
 
-                    <Image Source="where.png" Grid.Row="0" Grid.Column="0" Aspect="AspectFill">
+                    <Image Source="where.jpg" Grid.Row="0" Grid.Column="0" Aspect="AspectFill">
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="ToWhere_Clicked" NumberOfTapsRequired="1" />
                         </Image.GestureRecognizers>
@@ -66,7 +66,7 @@
                         TextColor="White" Padding="0" />
 
 
-                    <Image Source="access.png" Grid.Row="0" Grid.Column="1" Aspect="AspectFill">
+                    <Image Source="access.jpg" Grid.Row="0" Grid.Column="1" Aspect="AspectFill">
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="ToAccess_Clicked" NumberOfTapsRequired="1" />
                         </Image.GestureRecognizers>

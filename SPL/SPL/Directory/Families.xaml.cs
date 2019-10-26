@@ -20,14 +20,14 @@ namespace SPL.Directory
             {
                 Name = "Family Support",
                 Info = "Support for family matters",
-                ImageSource = "family.png"
+                ImageSource = "family.jpg"
             });
 
             Results.Add(new Results
             {
                 Name = "Child Protection",
                 Info = "Services to ensure child wellbeing",
-                ImageSource = "child.png"
+                ImageSource = "child.jpg"
             });
 
 
@@ -35,21 +35,21 @@ namespace SPL.Directory
             {
                 Name = "Adoption",
                 Info = "Information on the process of adoption",
-                ImageSource = "adoption.png"
+                ImageSource = "adoption.jpg"
             });
 
             Results.Add(new Results
             {
                 Name = "School Fee Remission",
                 Info = "Ensuring each child has access to education",
-                ImageSource = "school.png"
+                ImageSource = "school.jpg"
             });
 
             Results.Add(new Results
             {
                 Name = "Family Support Centre",
                 Info = "Family support and counselling services",
-                ImageSource = "FSC.png"
+                ImageSource = "FSC.jpg"
             });
 
             BindingContext = this;

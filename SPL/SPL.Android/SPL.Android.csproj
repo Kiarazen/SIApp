@@ -42,6 +42,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AndroidManagedSymbols>true</AndroidManagedSymbols>
+    <JavaMaximumHeapSize>2G</JavaMaximumHeapSize>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Mono.Android" />
@@ -75,7 +76,6 @@
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="Properties\AndroidManifest.xml" />
-    <None Include="Resources\empty.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Tabbar.axml" />
@@ -94,124 +94,11 @@
     <AndroidResource Include="Resources\mipmap-xxhdpi\launcher_foreground.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
-    <AndroidResource Include="Resources\drawable\xamarin_logo.png" />
-    <AndroidResource Include="Resources\drawable\About.png">
-      <SubType></SubType>
-      <Generator></Generator>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable\members.png">
-      <SubType></SubType>
-      <Generator></Generator>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable\where.png">
-      <SubType></SubType>
-      <Generator></Generator>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable\access.png">
-      <SubType></SubType>
-      <Generator></Generator>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable\FSC.png">
-      <SubType></SubType>
-      <Generator></Generator>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable\CCC.png">
-      <SubType></SubType>
-      <Generator></Generator>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable\RSIPF.png">
-      <SubType></SubType>
-      <Generator></Generator>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable\SIPPA.png">
-      <SubType></SubType>
-      <Generator></Generator>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable\NRH.png">
-      <SubType></SubType>
-      <Generator></Generator>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable\others.png">
-      <SubType></SubType>
-      <Generator></Generator>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable\crisis.png">
-      <SubType></SubType>
-      <Generator></Generator>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable\victim.png">
-      <SubType></SubType>
-      <Generator></Generator>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable\child.png">
-      <SubType></SubType>
-      <Generator></Generator>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable\family.png">
-      <SubType></SubType>
-      <Generator></Generator>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable\adoption.png">
-      <SubType></SubType>
-      <Generator></Generator>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable\school.png">
-      <SubType></SubType>
-      <Generator></Generator>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable\family_court.png">
-      <SubType></SubType>
-      <Generator></Generator>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable\juvenile_court.png">
-      <SubType></SubType>
-      <Generator></Generator>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable\probation.png">
-      <SubType></SubType>
-      <Generator></Generator>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable\prisoner.png">
-      <SubType></SubType>
-      <Generator></Generator>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable\health_sector.png">
-      <SubType></SubType>
-      <Generator></Generator>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable\volunteer.png">
-      <SubType></SubType>
-      <Generator></Generator>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable\letters.png">
-      <SubType></SubType>
-      <Generator></Generator>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable\other_welfare.png">
-      <SubType></SubType>
-      <Generator></Generator>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable\safeWomen.png">
-      <SubType></SubType>
-      <Generator></Generator>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable\safeMen.png">
-      <SubType></SubType>
-      <Generator></Generator>
-    </AndroidResource>
     <AndroidResource Include="Resources\drawable\quiz.png">
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
-    <AndroidResource Include="Resources\drawable\video.png">
-      <SubType></SubType>
-      <Generator></Generator>
-    </AndroidResource>
     <AndroidResource Include="Resources\drawable\podcast.png">
-      <SubType></SubType>
-      <Generator></Generator>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable\feedback.png">
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
@@ -235,26 +122,6 @@
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
-    <AndroidResource Include="Resources\drawable\youth.png">
-      <SubType></SubType>
-      <Generator></Generator>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable\youth2.png">
-      <SubType></SubType>
-      <Generator></Generator>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable\building.png">
-      <SubType></SubType>
-      <Generator></Generator>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable\fight.png">
-      <SubType></SubType>
-      <Generator></Generator>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable\alcohol.png">
-      <SubType></SubType>
-      <Generator></Generator>
-    </AndroidResource>
     <AndroidResource Include="Resources\drawable\full.png">
       <SubType></SubType>
       <Generator></Generator>
@@ -267,7 +134,159 @@
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
-    <AndroidResource Include="Resources\drawable\path.png">
+    <AndroidResource Include="Resources\drawable\adoption.jpg">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\child.jpg">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\crisis.jpg">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\family_court.jpg">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\family.jpg">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\health_sector.jpg">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\juvenile_court.jpg">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\letters.jpg">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\other_welfare.jpg">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\prisoner.jpg">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\probation.jpg">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\school.jpg">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\victim.jpg">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\volunteer.jpg">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\building.jpg">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\youth.jpg">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\About.jpg">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\access.jpg">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\CCC.jpg">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\FSC.jpg">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\NRH.jpg">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\others.jpg">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\SIPPA.jpg">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\members.jpg">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\fight.jpg">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\path.jpg">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\video.jpg">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\alcohol.jpg">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\disabled.jpg">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\feedback.jpg">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\healthcare.jpg">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\learn.jpg">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\safep.jpg">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\SIdisaster.jpg">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\swelfare.jpg">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\where.jpg">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\RSIPF.jpg">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\safeWomen.jpg">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\safeMen.jpg">
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
@@ -289,31 +308,10 @@
     <AndroidResource Include="Resources\drawable\blue.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\disabled.png" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\drawable\green2.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\healthcare.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\learn.png" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\drawable\red2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\safep.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\SIdisaster.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\swelfare.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\yellow.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\yellow2.png" />

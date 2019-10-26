@@ -21,14 +21,14 @@ namespace SPL.Directory
             {
                 Name = "Crisis Assistance",
                 Info = "Provision of emergency assistance in times of need",
-                ImageSource = "crisis.png"
+                ImageSource = "crisis.jpg"
             });
 
             Results.Add(new Results
             {
                 Name = "Victim Response",
                 Info = "Support and counselling for victims under social welfare scheme",
-                ImageSource = "victim.png"
+                ImageSource = "victim.jpg"
             });
 
 
@@ -36,7 +36,7 @@ namespace SPL.Directory
             {
                 Name = "SafeNet & Safe Ples",
                 Info = "Support for victims of gender-based violence",
-                ImageSource = "safep.png"
+                ImageSource = "safep.jpg"
             });
 
 

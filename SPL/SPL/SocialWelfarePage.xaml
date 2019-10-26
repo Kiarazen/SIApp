@@ -6,7 +6,7 @@
     x:Class="SPL.SocialWelfarePage">
     <ContentPage.Content>
      <ScrollView>
-            <StackLayout Margin="0,55,0,0">
+            <StackLayout Margin="0,40,0,0">
                 <Grid RowSpacing="0" ColumnSpacing="16" HorizontalOptions="Center" Padding="0,0,0,0">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="100"></RowDefinition>
@@ -19,7 +19,7 @@
 
 
 
-                    <Image Source="crisis.png" Grid.Row="0" Grid.Column="0" Aspect="AspectFill">
+                    <Image Source="crisis.jpg" Grid.Row="0" Grid.Column="0" Aspect="AspectFill">
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="ToCrisis_Clicked" NumberOfTapsRequired="1" />
                         </Image.GestureRecognizers>
@@ -30,7 +30,7 @@
                         Opacity="0.9"
                         TextColor="White" Padding="0" />
 
-                    <Image Source="victim.png" Grid.Row="0" Grid.Column="1" Aspect="AspectFill">
+                    <Image Source="victim.jpg" Grid.Row="0" Grid.Column="1" Aspect="AspectFill">
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="ToVictim_Clicked" NumberOfTapsRequired="1" />
                         </Image.GestureRecognizers>
@@ -54,7 +54,7 @@
                     </Grid.ColumnDefinitions>
 
 
-                    <Image Source="child.png" Grid.Row="0" Grid.Column="0" Aspect="AspectFill">
+                    <Image Source="child.jpg" Grid.Row="0" Grid.Column="0" Aspect="AspectFill">
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="ToChild_Clicked" NumberOfTapsRequired="1" />
                         </Image.GestureRecognizers>
@@ -67,7 +67,7 @@
                         TextColor="White" Padding="0" />
 
 
-                    <Image Source="family.png" Grid.Row="0" Grid.Column="1" Aspect="AspectFill">
+                    <Image Source="family.jpg" Grid.Row="0" Grid.Column="1" Aspect="AspectFill">
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="ToFamily_Clicked" NumberOfTapsRequired="1" />
                         </Image.GestureRecognizers>
@@ -93,7 +93,7 @@
                     </Grid.ColumnDefinitions>
 
 
-                    <Image Source="adoption.png" Grid.Row="0" Grid.Column="0" Aspect="AspectFill">
+                    <Image Source="adoption.jpg" Grid.Row="0" Grid.Column="0" Aspect="AspectFill">
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="ToAdoption_Clicked" NumberOfTapsRequired="1" />
                         </Image.GestureRecognizers>
@@ -106,7 +106,7 @@
                         TextColor="White" Padding="0" />
 
 
-                    <Image Source="school.png" Grid.Row="0" Grid.Column="1" Aspect="AspectFill">
+                    <Image Source="school.jpg" Grid.Row="0" Grid.Column="1" Aspect="AspectFill">
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="ToSchool_Clicked" NumberOfTapsRequired="1" />
                         </Image.GestureRecognizers>
@@ -133,7 +133,7 @@
                     </Grid.ColumnDefinitions>
 
 
-                    <Image Source="family_court.png" Grid.Row="0" Grid.Column="0" Aspect="AspectFill">
+                    <Image Source="family_court.jpg" Grid.Row="0" Grid.Column="0" Aspect="AspectFill">
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="ToCrisis_Clicked" NumberOfTapsRequired="1" />
                         </Image.GestureRecognizers>
@@ -146,7 +146,7 @@
                         TextColor="White" Padding="0" />
 
 
-                    <Image Source="juvenile_court.png" Grid.Row="0" Grid.Column="1" Aspect="AspectFill">
+                    <Image Source="juvenile_court.jpg" Grid.Row="0" Grid.Column="1" Aspect="AspectFill">
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="ToCrisis_Clicked" NumberOfTapsRequired="1" />
                         </Image.GestureRecognizers>
@@ -172,7 +172,7 @@
                     </Grid.ColumnDefinitions>
 
 
-                    <Image Source="probation.png" Grid.Row="0" Grid.Column="0" Aspect="AspectFill">
+                    <Image Source="probation.jpg" Grid.Row="0" Grid.Column="0" Aspect="AspectFill">
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="ToCrisis_Clicked" NumberOfTapsRequired="1" />
                         </Image.GestureRecognizers>
@@ -185,7 +185,7 @@
                         TextColor="White" Padding="0" />
 
 
-                    <Image Source="prisoner.png" Grid.Row="0" Grid.Column="1" Aspect="AspectFill">
+                    <Image Source="prisoner.jpg" Grid.Row="0" Grid.Column="1" Aspect="AspectFill">
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="ToCrisis_Clicked" NumberOfTapsRequired="1" />
                         </Image.GestureRecognizers>
@@ -211,7 +211,7 @@
                     </Grid.ColumnDefinitions>
 
 
-                    <Image Source="health_sector.png" Grid.Row="0" Grid.Column="0" Aspect="AspectFill">
+                    <Image Source="health_sector.jpg" Grid.Row="0" Grid.Column="0" Aspect="AspectFill">
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="ToCrisis_Clicked" NumberOfTapsRequired="1" />
                         </Image.GestureRecognizers>
@@ -224,7 +224,7 @@
                         TextColor="White" Padding="0" />
 
 
-                    <Image Source="volunteer.png" Grid.Row="0" Grid.Column="1" Aspect="AspectFill">
+                    <Image Source="volunteer.jpg" Grid.Row="0" Grid.Column="1" Aspect="AspectFill">
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="ToCrisis_Clicked" NumberOfTapsRequired="1" />
                         </Image.GestureRecognizers>
@@ -250,7 +250,7 @@
                     </Grid.ColumnDefinitions>
 
 
-                    <Image Source="letters.png" Grid.Row="0" Grid.Column="0" Aspect="AspectFill">
+                    <Image Source="letters.jpg" Grid.Row="0" Grid.Column="0" Aspect="AspectFill">
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="ToCrisis_Clicked" NumberOfTapsRequired="1" />
                         </Image.GestureRecognizers>
@@ -263,7 +263,7 @@
                         TextColor="White" Padding="0" />
 
 
-                    <Image Source="other_welfare.png" Grid.Row="0" Grid.Column="1" Aspect="AspectFill">
+                    <Image Source="other_welfare.jpg" Grid.Row="0" Grid.Column="1" Aspect="AspectFill">
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="ToCrisis_Clicked" NumberOfTapsRequired="1" />
                         </Image.GestureRecognizers>

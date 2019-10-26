@@ -5153,19 +5153,10 @@ namespace SPL.Droid
 			public const int @where = 2131165544;
 			
 			// aapt resource value: 0x7F070169
-			public const int xamarin_logo = 2131165545;
+			public const int yellow2 = 2131165545;
 			
 			// aapt resource value: 0x7F07016A
-			public const int yellow = 2131165546;
-			
-			// aapt resource value: 0x7F07016B
-			public const int yellow2 = 2131165547;
-			
-			// aapt resource value: 0x7F07016C
-			public const int youth = 2131165548;
-			
-			// aapt resource value: 0x7F07016D
-			public const int youth2 = 2131165549;
+			public const int youth = 2131165546;
 			
 			static Drawable()
 			{
