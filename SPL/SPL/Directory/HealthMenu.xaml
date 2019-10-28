@@ -41,7 +41,7 @@
        
         <CheckBox Grid.Column="0" Grid.Row="1"
                   Color="Green"
-                 x:Name="checkbox2"
+                 x:Name="checkboxN2"
                   VerticalOptions="Center" />
          <Label Grid.Column="1" Grid.Row="1"
                Text="Women's Health"

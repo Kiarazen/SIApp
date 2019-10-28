@@ -68,9 +68,6 @@
     <Compile Update="Directory\Mental.xaml.cs">
       <DependentUpon>Mental.xaml</DependentUpon>
     </Compile>
-    <Compile Update="Directory\Womens.xaml.cs">
-      <DependentUpon>Womens.xaml</DependentUpon>
-    </Compile>
     <Compile Update="Directory\Childrens.xaml.cs">
       <DependentUpon>Childrens.xaml</DependentUpon>
     </Compile>
@@ -94,9 +91,6 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\LearnPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Views\SafeNetPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\SocProtPage.xaml">

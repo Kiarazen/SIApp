@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SPL.Views.FeedbackP3">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SPL.Views.FeedbackP3">
     <NavigationPage.TitleView>
         <StackLayout Orientation="Horizontal">
            
@@ -20,61 +22,92 @@
         </StackLayout>
     </NavigationPage.TitleView>
 
-        <StackLayout Margin="40">
-       <Grid RowSpacing="0" ColumnSpacing="16" HorizontalOptions="Center" Padding="0,0,0,0">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="200"></RowDefinition>
-                    <RowDefinition Height="300"></RowDefinition>
-                    <RowDefinition Height="200"></RowDefinition>
-                    <RowDefinition Height="500"></RowDefinition>
-                    <RowDefinition Height="100"></RowDefinition>
 
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    
-                </Grid.ColumnDefinitions>
-           </Grid>
+    <StackLayout>
 
+ <Label Padding="0,40,0,30" TextColor="#004BA0" HorizontalTextAlignment="Center" FontSize="23" Text="Give us a rating"/>
+            <Grid 
+                  VerticalOptions="FillAndExpand" HorizontalOptions="Center">
+<Grid.RowDefinitions>
+<RowDefinition Height="Auto"></RowDefinition>
+</Grid.RowDefinitions>
+<Grid.ColumnDefinitions>
+<ColumnDefinition Width="Auto"></ColumnDefinition>
+<ColumnDefinition Width="Auto"></ColumnDefinition>
+    <ColumnDefinition Width="Auto"></ColumnDefinition>
+    <ColumnDefinition Width="Auto"></ColumnDefinition>
+    <ColumnDefinition Width="Auto"></ColumnDefinition>
+</Grid.ColumnDefinitions>
        
-                    
-         <Label Margin="20" Grid.Row="0" Grid.Column="0" TextColor="#004BA0" HorizontalTextAlignment="Center" FontSize="23" Text="Give us a rating"/>
 
-             <Image Source="empty.png">
+            <Image x:Name="oneStar" Grid.Row="0" Grid.Column="0" Source="empty1.jpg" WidthRequest="55" >
                 <Image.GestureRecognizers>
-                    <TapGestureRecognizer
-                            Tapped="Rate"
-                            NumberOfTapsRequired="1" />
-                </Image.GestureRecognizers>
-                   </Image>
+                   <TapGestureRecognizer 
+                           Tapped="Rate1"
+                           NumberOfTapsRequired="1" />
+               </Image.GestureRecognizers>
+              </Image>             
+
+             <Image x:Name="twoStar" Grid.Row="0" Grid.Column="1" Source="empty1.jpg" WidthRequest="55" >
+  
+                 <Image.GestureRecognizers>
+                   <TapGestureRecognizer 
+                           Tapped="Rate2"
+                           NumberOfTapsRequired="1" />
+               </Image.GestureRecognizers>
+             </Image>
+
+              <Image x:Name="threeStar" Grid.Row="0" Grid.Column="2" Source="empty1.jpg" WidthRequest="55" >
+  
+                 <Image.GestureRecognizers>
+                   <TapGestureRecognizer
+                           Tapped="Rate3"
+                           NumberOfTapsRequired="1" />
+               </Image.GestureRecognizers>
+             </Image>
+                                    
+            <Image x:Name="fourStar" Grid.Row="0" Grid.Column="3" Source="empty1.jpg" WidthRequest="55" >
+  
+                 <Image.GestureRecognizers>
+                   <TapGestureRecognizer
+                           Tapped="Rate4"
+                           NumberOfTapsRequired="1" />
+               </Image.GestureRecognizers>
+             </Image>
+                      
+             <Image x:Name="fiveStar" Grid.Row="0" Grid.Column="4" Source="empty1.jpg" WidthRequest="55" >
+  
+                 <Image.GestureRecognizers>
+                   <TapGestureRecognizer
+                           Tapped="Rate5"
+                           NumberOfTapsRequired="1" />
+               </Image.GestureRecognizers>
+             </Image>
+                      
+
+        </Grid>
+
+<Label Padding="0,10,0,30" TextColor="#004BA0" HorizontalTextAlignment="Center" FontSize="23" Text="Leave a comment"/>
+       
+        <Editor WidthRequest="250" Placeholder="Start typing here" PlaceholderColor="#DDDDDD">
+               <Editor.Keyboard>
+                   <Keyboard x:FactoryMethod="Create">
+                       <x:Arguments>
+                           <KeyboardFlags>Suggestions,CapitalizeCharacter</KeyboardFlags>
+                       </x:Arguments>
+                   </Keyboard>
+               </Editor.Keyboard>
+           </Editor>
+            
+
+           <Image Margin= "45" Source="done.png" HeightRequest="100" WidthRequest="100" HorizontalOptions="CenterAndExpand">
+               <Image.GestureRecognizers>
+                   <TapGestureRecognizer
+                           Tapped="BackToHome"
+                           NumberOfTapsRequired="1" />
+               </Image.GestureRecognizers>
+                  </Image>
 
 
-        <Label Margin="20" Grid.Row="2" Grid.Column="0" TextColor="#004BA0" HorizontalTextAlignment="Center" FontSize="23" Text="Leave a comment"/>
-
-            <Editor Grid.Row="3" Grid.Column="0" Placeholder="Start typing here" PlaceholderColor="#DDDDDD">
-                <Editor.Keyboard>
-                    <Keyboard x:FactoryMethod="Create">
-                        <x:Arguments>
-                            <KeyboardFlags>Suggestions,CapitalizeCharacter</KeyboardFlags>
-                        </x:Arguments>
-                    </Keyboard>
-                </Editor.Keyboard>
-            </Editor>
-
-            <Image Margin= "45" Source="done.png" HeightRequest="100" WidthRequest="100" HorizontalOptions="CenterAndExpand">
-                <Image.GestureRecognizers>
-                    <TapGestureRecognizer
-                            Tapped="BackToHome"
-                            NumberOfTapsRequired="1" />
-                </Image.GestureRecognizers>
-                   </Image>
-            <!--
-
-        <ImageButton Margin="40" Grid.Row="4" Grid.Column="0" Source="fab.png"
-                       BackgroundColor="Transparent" HorizontalOptions="End"
-                     Clicked="BackToHome"
-                     />
-
-            -->
-     </StackLayout>
+       </StackLayout>
 </ContentPage>

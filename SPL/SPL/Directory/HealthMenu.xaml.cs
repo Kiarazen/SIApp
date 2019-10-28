@@ -25,9 +25,9 @@ namespace SPL.Directory
             {
                 await Navigation.PushModalAsync(new NavigationPage(new Mental()));
             }
-            else if (checkbox2.IsChecked)
+            else if (checkboxN2.IsChecked)
             {
-                await Navigation.PushModalAsync(new NavigationPage(new Womens()));
+                await Navigation.PushModalAsync(new NavigationPage(new Women()));
             }
             else if (checkbox3.IsChecked)
             {

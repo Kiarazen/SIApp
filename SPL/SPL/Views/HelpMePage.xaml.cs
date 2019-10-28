@@ -22,9 +22,6 @@ namespace SPL.Views
 
 
 
-
-
-
         async void GoBack(object sender, EventArgs e)
         {
             await Navigation.PushModalAsync(new NavigationPage(new HomePage()));
@@ -44,6 +41,30 @@ namespace SPL.Views
             else if (checkbox3.IsChecked)
             {
                 await Navigation.PushModalAsync(new NavigationPage(new HealthMenu()));
+            }
+            else if (checkbox4.IsChecked)
+            {
+                await Navigation.PushModalAsync(new NavigationPage(new Legal()));
+            }
+            else if (checkbox5.IsChecked)
+            {
+                await Navigation.PushModalAsync(new NavigationPage(new Disabilities()));
+            }
+            else if (checkbox6.IsChecked)
+            {
+                await Navigation.PushModalAsync(new NavigationPage(new SafeNetD()));
+            }
+            else if (checkbox7.IsChecked)
+            {
+                await Navigation.PushModalAsync(new NavigationPage(new Education()));
+            }
+            else if (checkbox8.IsChecked)
+            {
+                await Navigation.PushModalAsync(new NavigationPage(new Disasters()));
+            }
+            else if (checkbox9.IsChecked)
+            {
+                await Navigation.PushModalAsync(new NavigationPage(new Awareness()));
             }
             else
                 await Navigation.PushModalAsync(new NavigationPage(new HomePage()));

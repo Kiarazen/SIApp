@@ -47,7 +47,7 @@ namespace SPL.Directory
             }
             else if (selectedItem.Name.Equals("SafeNet & Safe Ples"))
             {
-                await Navigation.PushModalAsync(new NavigationPage(new SafeNetPage()));
+                await Navigation.PushModalAsync(new NavigationPage(new SafeNet()));
             }
             else
                 await Navigation.PushModalAsync(new NavigationPage(new HomePage()));
